@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "dateCreated": "2019-12-23T12:34:00-05:00",
+  "dateModified": "2019-12-26T14:53:00-05:00",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Angelo Huff",
+    "alternateName": "ahuff23",
+    "identifier": "123475623",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "https://schema.org/FollowAction",
+        "userInteractionCount": 1
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "https://schema.org/LikeAction",
+        "userInteractionCount": 5
+      }
+    ],
+    "agentInteractionStatistic": {
+      "@type": "InteractionCounter",
+      "interactionType": "https://schema.org/WriteAction",
+      "userInteractionCount": 2346
+    },
+    "description": "Defender of Truth",
+    "image": "https://example.com/avatars/ahuff23.jpg",
+    "sameAs": [
+      "https://www.example.com/real-angelo",
+      "https://example.com/profile/therealangelohuff"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Main Street",
+      "addressLocality": "Anytown",
+      "addressRegion": "CA",
+      "postalCode": "12345",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-555-555-5555",
+    "email": "angelo.huff@example.com",
+    "memberOf": {
+      "@type": "Organization",
+      "name": "Cool Forum Platform",
+      "url": "https://www.example.com/cool-forum-platform"
+    },
+    "birthDate": "1990-05-15",
+    "gender": "Male",
+    "nationality": "US",
+    "jobTitle": "Journalist",
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "University of Journalism",
+      "url": "https://www.example.com/university-of-journalism"
+    },
+    "knows": [
+      {
+        "@type": "Person",
+        "name": "John Doe",
+        "url": "https://www.example.com/john-doe"
+      },
+      {
+        "@type": "Person",
+        "name": "Jane Smith",
+        "url": "https://www.example.com/jane-smith"
+      }
+    ]
+  }
+}
