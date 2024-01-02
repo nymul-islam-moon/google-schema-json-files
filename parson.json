@@ -5,9 +5,7 @@
   "dateModified": "2023-01-02T14:53:00-05:00",
   "mainEntity": {
     "@type": "Person",
-    "firstName": "Angelo",
-    "middleName": "Middle",
-    "lastName": "Last Info",
+    "Name": "Angelo",
     "alternateName": "ahuff23",
     "identifier": "123475623",
     "description": "Defender of Truth",
@@ -35,49 +33,18 @@
     },
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "123 Main Street",
-      "addressLocality": "Anytown",
-      "addressRegion": "CA",
-      "postalCode": "12345",
-      "addressCountry": "US"
-    },
-    "presentAddress": {
-      "@type": "PostalAddress",
       "streetAddress": "456 Present Street",
       "addressLocality": "Present City",
       "addressRegion": "CA",
       "postalCode": "67890",
       "addressCountry": "US"
     },
-    "permanentAddress": {
-      "@type": "PostalAddress",
-      "streetAddress": "789 Permanent Street",
-      "addressLocality": "Permanent City",
-      "addressRegion": "CA",
-      "postalCode": "56789",
-      "addressCountry": "US"
-    },
     "telephone": [
-      {
-        "@type": "ContactPoint",
-        "contactType": "customer support",
-        "telephone": "+1-555-555-5555"
-      },
-      {
-        "@type": "ContactPoint",
-        "contactType": "work",
-        "telephone": "+1-555-555-5556"
-      },
-      {
-        "@type": "ContactPoint",
-        "contactType": "mobile",
-        "telephone": "+1-555-555-5557"
-      }
+      "+1-555-555-5555"
     ],
     "email": "angelo.huff@example.com",
     "birthDate": "1990-05-15",
     "gender": "Male",
-    "nationality": "US",
     "knows": [
       {
         "@type": "Person",
@@ -90,32 +57,15 @@
         "url": "https://www.example.com/jane-smith"
       }
     ],
-    "education": {
-      "@type": "EducationalOrganization",
-      "name": "University of Journalism",
-      "url": "https://www.example.com/university-of-journalism"
-    },
     "alumniOf": {
       "@type": "EducationalOrganization",
       "name": "University of Journalism",
-      "url": "https://www.example.com/university-of-journalism"
+      "sameAs": "https://www.example.com/university-of-journalism"
     },
     "affiliation": {
       "@type": "Organization",
       "name": "News Corp",
       "url": "https://www.example.com/news-corp"
-    },
-    "workLocation": {
-      "@type": "Place",
-      "name": "News Corp Headquarters",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "789 Work Street",
-        "addressLocality": "Work City",
-        "addressRegion": "CA",
-        "postalCode": "56789",
-        "addressCountry": "US"
-      }
     },
     "jobTitle": "Journalist"
   }
