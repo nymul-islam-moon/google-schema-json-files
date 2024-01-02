@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Your Article Headline",
+  "image": [
+    "https://example.com/photos/1x1/photo.jpg",
+    "https://example.com/photos/4x3/photo.jpg",
+    "https://example.com/photos/16x9/photo.jpg"
+  ],
+  "datePublished": "2015-02-05T08:00:00+08:00",
+  "dateModified": "2015-02-05T09:20:00+08:00",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Author's Name",
+      "url": "https://example.com/profile/johndoe123"
+    },
+    {
+      "@type": "Person",
+      "name": "Jane Doe",
+      "url": "https://example.com/profile/janedoe123"
+    },
+    {
+      "@type": "Person",
+      "name": "John Doe",
+      "url": "https://example.com/profile/johndoe123"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Your Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "URL_OF_YOUR_ORGANIZATION_LOGO"
+    }
+  },
+  "description": "Brief description of your article content"
+}
