@@ -1,0 +1,96 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Introducing the self-driving bicycle in the Netherlands",
+  "description": "This spring, Google is introducing the self-driving bicycle in Amsterdam, the world's premier cycling city. The Dutch cycle more than any other nation in the world, almost 900 kilometres per year per person, amounting to over 15 billion kilometres annually. The self-driving bicycle enables safe navigation through the city for Amsterdam residents, and furthers Google's ambition to improve urban mobility with technology. Google Netherlands takes enormous pride in the fact that a Dutch team worked on this innovation that will have great impact in their home country.",
+  "thumbnailUrl": [
+    "https://example.com/photos/1x1/photo.jpg",
+    "https://example.com/photos/4x3/photo.jpg",
+    "https://example.com/photos/16x9/photo.jpg"
+  ],
+  "uploadDate": "2016-03-31T08:00:00+08:00",
+  "duration": "PT1M54S",
+  "contentUrl": "https://www.example.com/video/123/file.mp4",
+  "embedUrl": "https://www.example.com/embed/123",
+  "interactionStatistic": {
+    "@type": "InteractionCounter",
+    "interactionType": { "@type": "WatchAction" },
+    "userInteractionCount": 5647018
+  },
+  "regionsAllowed": "US,NL",
+  "author": {
+    "@type": "Person",
+    "name": "Your Name",
+    "url": "URL_OF_AUTHOR_PROFILE"
+  },
+  "commentCount": 500,
+  "interactionCount": "User views: 1500, Likes: 1200, Dislikes: 50, Comments: 500",
+  "dateModified": "2023-01-16T10:30:00+08:00",
+  "datePublished": "2023-01-15T08:00:00+08:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "URL_OF_VIDEO_PAGE"
+  },
+  "videoQuality": "HD",
+  "transcript": "URL_OF_TRANSCRIPT_DOCUMENT",
+  "genre": "Technology",
+
+  "itemReviewed": {
+    "@type": "Restaurant",
+    "image": "https://www.example.com/seafood-restaurant.jpg",
+    "name": "Legal Seafood",
+    "servesCuisine": "Seafood",
+    "priceRange": "$$$",
+    "telephone": "1234567",
+    "address" :{
+      "@type": "PostalAddress",
+      "streetAddress": "123 William St",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "postalCode": "10038",
+      "addressCountry": "US"
+    }
+  },
+  "keywords": "self-driving bicycle, urban mobility, Amsterdam, technology",
+  "isFamilyFriendly": true,
+  "requiresSubscription": false,
+  "publisher": {
+    "@type": "Organization",
+    "name": "Google Netherlands",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "URL_OF_ORGANIZATION_LOGO"
+    }
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "comment": [
+    {
+      "@type": "Comment",
+      "text": "Great innovation! Looking forward to trying it out.",
+      "author": {
+        "@type": "Person",
+        "name": "Commenter1",
+        "url": "URL_OF_COMMENTER_PROFILE"
+      },
+      "datePublished": "2023-01-16T12:45:00+08:00"
+    },
+    {
+      "@type": "Comment",
+      "text": "Amazing video! Can't wait for more technological advancements.",
+      "author": {
+        "@type": "Person",
+        "name": "Commenter2",
+        "url": "URL_OF_COMMENTER_PROFILE"
+      },
+      "datePublished": "2023-01-16T14:20:00+08:00"
+    }
+  ],
+  "awards": [
+    {
+      "@type": "Award",
+      "name": "Viewer's Choice Award",
+      "description": "Voted as the best video by viewers",
+      "url": "URL_OF_AWARD"
+    }
+  ]
+}
