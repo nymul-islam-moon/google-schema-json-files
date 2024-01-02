@@ -3,7 +3,10 @@
   "@type": "Organization",
   "image": "https://www.example.com/example_image.jpg",
   "url": "https://www.example.com",
-  "sameAs": ["https://example.net/profile/example1234", "https://example.org/example1234"],
+  "sameAs": [
+    "https://example.net/profile/example1234",
+    "https://example.org/example1234"
+  ],
   "logo": "https://www.example.com/images/logo.png",
   "name": "Example Corporation",
   "description": "The example corporation is well-known for producing high-quality widgets",
