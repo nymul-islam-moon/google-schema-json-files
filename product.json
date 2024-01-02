@@ -63,18 +63,6 @@
           "currency": "USD",
           "value": 5.99
         },
-        "shippingTime": {
-          "@type": "ShippingDeliveryTime",
-          "handlingTime": {
-            "@type": "QuantitativeValue",
-            "minValue": 0,
-            "maxValue": 1,
-            "unitCode": "DAY"
-          },
-          "transitTime": "3-5 business days"
-        },
-        "shippingDescription": "Standard Shipping",
-        "shippingDelay": "1-2 business days delay due to high demand",
         "shippingDestination": {
           "@type": "DefinedRegion",
           "addressCountry": "US"
