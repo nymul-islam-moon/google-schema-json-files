@@ -1,72 +1,154 @@
 {
   "@context": "https://schema.org",
   "@type": "ProfilePage",
+  "@id": "https://jay.holtslander.ca/#person",
   "dateCreated": "2023-01-02T12:34:00-05:00",
   "dateModified": "2023-01-02T14:53:00-05:00",
   "mainEntity": {
     "@type": "Person",
-    "Name": "Angelo",
-    "alternateName": "ahuff23",
-    "identifier": "123475623",
-    "description": "Defender of Truth",
-    "image": "https://example.com/avatars/ahuff23.jpg",
-    "sameAs": [
-      "https://www.example.com/real-angelo",
-      "https://example.com/profile/therealangelohuff"
+    "@id": "1",
+    "name": "Alex",
+    "alternateName": "Albert",
+    "gender": "Male",
+    "Description": "Technologist",
+    "nationality": "Bangladeshi",
+    "birthDate": "1997-06-17",
+    "birthPlace": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Vancouver",
+        "addressRegion": "BC",
+        "addressCountry": "Canada"
+      }
+    },
+    "award": [
+      "Google Analytics Individual Qualification",
+      "Google Ads Search Certification",
+      "Google Ads Search Certification",
+      "Google Mobile Sites Certification",
+      "Google Ads Search",
+      "Google Ads Fundamentals",
+      "Google Web Designer Basics",
+      "Google My Business Basics"
     ],
-    "interactionStatistic": [
+    "affiliation": [
       {
-        "@type": "InteractionCounter",
-        "interactionType": "https://schema.org/FollowAction",
-        "userInteractionCount": 1
-      },
-      {
-        "@type": "InteractionCounter",
-        "interactionType": "https://schema.org/LikeAction",
-        "userInteractionCount": 5
+        "@type": "Organization",
+        "name": "Futurpreneur",
+        "sameAs": [
+          "https://twitter.com/futurpreneur",
+          "https://www.facebook.com/futurpreneur/",
+          "https://www.linkedin.com/company-beta/100369/",
+          "https://www.youtube.com/user/CYBF"
+        ]
       }
     ],
-    "agentInteractionStatistic": {
-      "@type": "InteractionCounter",
-      "interactionType": "https://schema.org/WriteAction",
-      "userInteractionCount": 2346
-    },
+    "alumniOf": [
+      {
+        "@type": "EducationalOrganization",
+        "name": "State University of Bangladesh",
+        "sameAs": "https://www.example.com/state-university-of-bangladesh",
+        "degree": {
+          "@type": "EducationalDegree",
+          "name": "B.Sc",
+          "alumniOf": "Computer Science and Engineering"
+        }
+      },
+      {
+        "@type": "EducationalOrganization",
+        "name": "Rajbari Govt. College",
+        "sameAs": "https://www.example.com/rajbari-govt-college",
+        "degree": {
+          "@type": "EducationalDegree",
+          "name": "Higher Secondary Certificate (HSC)",
+          "alumniOf": "Science"
+        }
+      },
+      {
+        "@type": "EducationalOrganization",
+        "name": "Rajbari Govt. High School",
+        "sameAs": "https://www.example.com/rajbari-govt-high-school",
+        "degree": {
+          "@type": "EducationalDegree",
+          "name": "Secondary School Certificate (SSC)",
+          "alumniOf": "Science"
+        }
+      }
+    ],
+    "disambiguatingDescription": "Co-founder of CodeCore Bootcamp",
+    "jobTitle": "Technical Director",
+    "worksFor": [
+      {
+        "@type": "Organization",
+        "name": "Webappick",
+        "url": "https://www.example.com/webappick",
+        "image": [
+          "https://example.com/photos/1x1/photo.jpg",
+          "https://example.com/photos/4x3/photo.jpg",
+          "https://example.com/photos/16x9/photo.jpg"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "123 Tech Street",
+          "addressLocality": "Tech City",
+          "addressRegion": "CA",
+          "postalCode": "56789",
+          "addressCountry": "US"
+        },
+        "jobTitle": "Software Engineer",
+        "telephone": ["+1-555-555-1234"],
+        "reviews": [
+          {
+            "@type": "Review",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": 5
+            },
+            "author": {
+              "@type": "Person",
+              "name": "John Smith",
+              "image": "https://example.com/photos/john-smith.jpg",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "789 Main Street",
+                "addressLocality": "Cityville",
+                "addressRegion": "CA",
+                "postalCode": "56789",
+                "addressCountry": "US"
+              }
+            },
+            "reviewBody": "Angelo is an exceptional software engineer. Highly recommended!"
+          }
+        ]
+      }
+    ],
+    "url": "https://jay.holtslander.ca",
+    "image": "https://s.gravatar.com/avatar/961997eb7fd5c22b3e12fb3c8ca14e11?s=512&r=g",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "456 Present Street",
-      "addressLocality": "Present City",
-      "addressRegion": "CA",
-      "postalCode": "67890",
-      "addressCountry": "US"
+      "addressLocality": "Vancouver",
+      "addressRegion": "BC",
+      "addressCountry": "Canada"
     },
-    "telephone": [
-      "+1-555-555-5555"
+    "sameAs": [
+      "https://www.facebook.com/jay.holtslander"
     ],
-    "email": "angelo.huff@example.com",
-    "birthDate": "1990-05-15",
-    "gender": "Male",
-    "knows": [
-      {
-        "@type": "Person",
-        "name": "John Doe",
-        "url": "https://www.example.com/john-doe"
+    "personalBusiness": {
+      "@type": "Business",
+      "name": "Tech Solutions",
+      "url": "https://www.example.com/Alex-tech-solutions",
+      "image": "https://example.com/photos/Alex-tech-solutions-logo.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "456 Tech Avenue",
+        "addressLocality": "Techville",
+        "addressRegion": "CA",
+        "postalCode": "54321",
+        "addressCountry": "US"
       },
-      {
-        "@type": "Person",
-        "name": "Jane Smith",
-        "url": "https://www.example.com/jane-smith"
-      }
-    ],
-    "alumniOf": {
-      "@type": "EducationalOrganization",
-      "name": "University of Journalism",
-      "sameAs": "https://www.example.com/university-of-journalism"
-    },
-    "affiliation": {
-      "@type": "Organization",
-      "name": "News Corp",
-      "url": "https://www.example.com/news-corp"
-    },
-    "jobTitle": "Journalist"
+      "telephone": ["+1-555-555-5678"],
+      "description": "Providing cutting-edge technology solutions to clients worldwide."
+    }
   }
 }
