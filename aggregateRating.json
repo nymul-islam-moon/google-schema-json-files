@@ -1,0 +1,12 @@
+{
+  "@context":"http://schema.org/",
+  "@type":"AggregateRating",
+  "itemReviewed": "#productx",
+  "ratingValue":"4.9",
+  "bestRating":"5",
+  "reviewCount":"20",
+  "author": {
+    "@type":"Organization",
+    "@id": "#organization"
+  }
+}
