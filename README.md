@@ -39,7 +39,7 @@ Each schema type includes a set of attributes and values to accurately represent
 
 To use the JSON files in your project:
 
-1. Clone the repository: `git clone https://github.com/your-username/google-schema-json-files.git`
+1. Clone the repository: `git clone https://github.com/nymul-islam-moon/Schemas`
 2. Navigate to the relevant directory for your use case (e.g., `/person-schema`).
 3. Copy the desired JSON file into your project.
 4. Customize the JSON file with your specific information.
