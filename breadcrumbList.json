@@ -1,8 +1,7 @@
-{
+{ // pass
   "@context": "http://schema.org",
   "@type": "BreadcrumbList",
-  "itemListElement":
-  [
+  "itemListElement": [
     {
       "@type": "ListItem",
       "position": 1,
@@ -32,7 +31,27 @@
       "position": 4,
       "item": {
         "@id": "https://jay.holtslander.ca/home/about/projects/project",
-        "name": "Project name"
+        "name": "Project name",
+        "description": "Description of the project goes here",
+        "image": "https://example.com/project-image.jpg",
+        "datePublished": "2022-01-01",
+        "dateModified": "2022-02-15",
+        "author": {
+          "@type": "Person",
+          "name": "Author Name",
+          "url": "https://example.com/author"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Publisher Name",
+          "url": "https://example.com/publisher",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://example.com/publisher-logo.png"
+          }
+        },
+        "mainEntityOfPage": "https://example.com/project-details",
+        "breadcrumb": "https://jay.holtslander.ca/home/about/projects/project"
       }
     }
   ]

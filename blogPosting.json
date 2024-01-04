@@ -1,4 +1,4 @@
-{
+{ // pass
   "@context": "http://schema.org",
   "@type": "BlogPosting",
   "image": "http://domain.com/blog/post/featured-image.jpg",
