@@ -1,4 +1,5 @@
 {
+  // pass
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Your Article Headline",
@@ -34,5 +35,43 @@
       "url": "URL_OF_YOUR_ORGANIZATION_LOGO"
     }
   },
-  "description": "Brief description of your article content"
+  "description": "Brief description of your article content",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://example.com/article-page"
+  },
+  "articleBody": "Full text of your article goes here. It can include HTML markup for formatting.",
+  "keywords": "comma, separated, list, of, keywords",
+  "inLanguage": "en-US",
+  "articleSection": "Technology",
+  "pageEnd": "12",
+  "pageStart": "1",
+  "pagination": "1 of 5",
+  "wordCount": 1200,
+  "isAccessibleForFree": false,
+  "isPartOf": {
+    "@type": "CreativeWork",
+    "name": "Series Title",
+    "url": "https://example.com/series-title"
+  },
+  "comment": [
+    {
+      "@type": "Comment",
+      "text": "Great article!",
+      "datePublished": "2015-02-05T10:30:00+08:00",
+      "author": {
+        "@type": "Person",
+        "name": "Commenter's Name",
+        "url": "https://example.com/profile/commenter123"
+      }
+    }
+  ],
+  "editor": [
+    {
+      "@type": "Person",
+      "name": "Editor's Name",
+      "url": "https://example.com/profile/editor123"
+    }
+  ],
+  "license": "https://example.com/license"
 }
