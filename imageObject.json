@@ -1,38 +1,38 @@
 {
-  "@context":"http://schema.org/",
+  "@context": "https://schema.org/",
   "@type": "ImageObject",
-  "@id": "#image01",
-  "url": "http://placehold.it/2560x1080",
-  "width": "1200",
-  "height": "348",
-  "caption": "Caption for the image",
-  "thumbnail": "http://placehold.it/128",
-  "representativeOfPage": "/",
-  "exifData": [
-    {
-      "@type": "PropertyValue",
-      "name": "Exposure Time",
-      "value": "1/659 sec."
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "FNumber",
-      "value": "f/4.0"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "MaxApertureValue",
-      "value": "2.00"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Metering Mode",
-      "value": "Pattern"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Flash",
-      "value": "Flash did not fire."
-    }
-  ]
+  "contentUrl": "https://example.com/photos/1x1/black-labrador-puppy.jpg",
+  "license": "https://example.com/license",
+  "acquireLicensePage": "https://example.com/how-to-use-my-images",
+  "creditText": "Labrador PhotoLab",
+  "creator": {
+    "@type": "Person",
+    "name": "Brixton Brownstone",
+    "url": "https://example.com/photographer-profile"
+  },
+  "copyrightNotice": "Clara Kent",
+  "description": "A charming black Labrador puppy",
+  "datePublished": "2022-01-03",
+  "keywords": ["Labrador", "puppy", "black", "adorable"],
+  "author": "Labrador PhotoLab",
+  "sourceOrganization": {
+    "@type": "Organization",
+    "name": "Labrador PhotoLab",
+    "url": "https://example.com"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "Image Provider",
+    "url": "https://example.com/provider"
+  },
+  "thumbnail": {
+    "@type": "ImageObject",
+    "contentUrl": "https://example.com/photos/thumbnail/black-labrador-puppy.jpg",
+    "width": "150",
+    "height": "150"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://example.com/photo-detail-page"
+  }
 }
