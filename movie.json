@@ -3,9 +3,30 @@
   "@type": "Movie",
   "url": "https://example.com/diehard",
   "name": "Die Hard",
+
   "image": "https://m.media-amazon.com/images/M/MV5BZjRlNDUxZjAtOGQ4OC00OTNlLTgxNmQtYTBmMDgwZmNmNjkxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
   "dateCreated": "1988-07-20",
   "director": "John McTiernan",
+  "description": "Die Hard is a classic action film that follows a cop trapped inside a high-rise with a team of desperate terrorists. He is all that stands between them and their hostages.",
+  "genre": ["Action", "Thriller"],
+  "keywords": ["Die Hard", "Action", "John McTiernan", "High-rise", "Terrorists"],
+  "contentRating": "R",
+  "duration": "PT2H12M",
+  "trailer": {
+    "@type": "VideoObject",
+    "name": "Die Hard Trailer",
+    "uploadDate": "2016-03-31T08:00:00+08:00",
+    "description": "Official trailer for the movie Die Hard.",
+    "thumbnailUrl": "https://example.com/diehard-trailer-thumbnail.jpg",
+    "contentUrl": "https://example.com/diehard-trailer.mp4"
+  },
+  "productionCompany": "20th Century Fox",
+  "countryOfOrigin": "USA",
+  "language": "English",
+  "audience": {
+    "@type": "Audience",
+    "suggestedMinAge": 17
+  },
   "review": {
     "@type": "Review",
     "reviewRating": {
@@ -23,5 +44,19 @@
     "ratingValue": "72",
     "bestRating": "100",
     "ratingCount": "1115"
-  }
+  },
+  "actor": [
+    {
+      "@type": "Person",
+      "name": "Bruce Willis",
+      "url": "https://example.com/bruce-willis",
+      "image": "https://example.com/bruce-willis.jpg"
+    },
+    {
+      "@type": "Person",
+      "name": "Alan Rickman",
+      "url": "https://example.com/alan-rickman",
+      "image": "https://example.com/alan-rickman.jpg"
+    }
+  ]
 }
