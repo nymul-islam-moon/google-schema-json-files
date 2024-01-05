@@ -34,5 +34,37 @@
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://example.com/photo-detail-page"
+  },
+  "additionalType": "Photograph",
+  "height": "1080",
+  "width": "1920",
+  "interactionStatistic": {
+    "@type": "InteractionCounter",
+    "interactionService": {
+      "@type": "WebSite",
+      "name": "Photo Viewer",
+      "url": "https://example.com/photo-viewer"
+    },
+    "userInteractionCount": 1500
+  },
+  "contentSize": "2.5MB",
+  "contentLocation": {
+    "@type": "Place",
+    "name": "Labrador PhotoLab Studio",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Main Street",
+      "addressLocality": "Cityville",
+      "addressRegion": "State",
+      "postalCode": "12345",
+      "addressCountry": "Country"
+    }
+  },
+  "contentRating": {
+    "@type": "Rating",
+    "ratingValue": "4.5",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": 100
   }
 }
