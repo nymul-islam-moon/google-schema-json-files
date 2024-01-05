@@ -8,10 +8,21 @@
       "@type": "Organization",
       "name": "Notary Inc."
     },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5",
-      "reviewCount": "20"
+    "itemReviewed": {
+      "@type": "LocalBusiness",
+      "image": "https://www.example.com/seafood-restaurant.jpg",
+      "name": "Legal Seafood",
+      "servesCuisine": "Seafood",
+      "priceRange": "$$$",
+      "telephone": "1234567",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 William St",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10038",
+        "addressCountry": "US"
+      }
     },
     "isSimilarTo": {
       "@type": "Service",
@@ -20,6 +31,17 @@
     "isRelatedTo": {
       "@type": "Service",
       "name": "Notary service3 name"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "100.00",
+      "priceCurrency": "USD",
+      "availability": "http://schema.org/InStock",
+      "validFrom": "2024-01-05"
+    },
+    "serviceOutput": {
+      "@type": "Thing",
+      "name": "Digital will document"
     }
   },
   {
@@ -31,10 +53,21 @@
       "@type": "Organization",
       "name": "Notary Inc."
     },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5",
-      "reviewCount": "20"
+    "itemReviewed": {
+      "@type": "LocalBusiness",
+      "image": "https://www.example.com/seafood-restaurant.jpg",
+      "name": "Legal Seafood",
+      "servesCuisine": "Seafood",
+      "priceRange": "$$$",
+      "telephone": "1234567",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 William St",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10038",
+        "addressCountry": "US"
+      }
     },
     "isSimilarTo": {
       "@type": "Service",
@@ -43,6 +76,17 @@
     "isRelatedTo": {
       "@type": "Service",
       "name": "Notary service3 name"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "50.00",
+      "priceCurrency": "USD",
+      "availability": "http://schema.org/InStock",
+      "validFrom": "2024-01-05"
+    },
+    "serviceOutput": {
+      "@type": "Thing",
+      "name": "Notarized document"
     }
   }
 ]

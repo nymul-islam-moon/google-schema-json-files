@@ -20,7 +20,7 @@
     "ratingValue": 4.4,
     "reviewCount": 89
   },
-  "image": "https://example.com/product-image.jpg", // Replace with actual image URL
+  "image": "https://example.com/product-image.jpg",
   "brand": {
     "@type": "Thing",
     "name": "Brand Name"
