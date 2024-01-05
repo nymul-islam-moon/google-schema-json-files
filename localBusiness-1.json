@@ -7,17 +7,16 @@
     "@id": "https://skunkworks.ca/"
   },
   "address": [
-    /* Put the main office address here */
     {
       "@type": "PostalAddress",
       "streetAddress": "#600 - 55 Water Street, Vancouver, BC V6B 1A1",
       "addressLocality": "Vancouver",
       "addressRegion": "British Columbia",
       "addressCountry": "Canada",
-      "postalCode": "v6b1a1"
+      "postalCode": "V6B 1A1"
     }
   ],
-  "telephone": "16047398976",  /* Put the main phone line here */
+  "telephone": "16047398976",
   "image": "https://skunkworks.ca/facebook.jpg",
   "priceRange": "$$$",
   "location": [
@@ -28,23 +27,23 @@
       "addressLocality": "Vancouver",
       "addressRegion": "BC",
       "addressCountry": "Canada",
-      "postalCode": "v6b1a1",
+      "postalCode": "V6B 1A1",
       "serviceArea": [
         {
-          "@type": "postalAddress",
-          "addressLocality":"Richmond",
+          "@type": "PostalAddress",
+          "addressLocality": "Richmond",
           "addressRegion": "British Columbia",
           "addressCountry": "Canada"
         },
         {
-          "@type": "postalAddress",
-          "addressLocality":"Surrey",
+          "@type": "PostalAddress",
+          "addressLocality": "Surrey",
           "addressRegion": "British Columbia",
           "addressCountry": "Canada"
         },
         {
-          "@type": "postalAddress",
-          "addressLocality":"Burnaby",
+          "@type": "PostalAddress",
+          "addressLocality": "Burnaby",
           "addressRegion": "British Columbia",
           "addressCountry": "Canada"
         }
@@ -57,27 +56,38 @@
       "addressLocality": "Burnaby",
       "addressRegion": "BC",
       "addressCountry": "Canada",
-      "postalCode": "V1A2B3",
+      "postalCode": "V1A 2B3",
       "serviceArea": [
         {
-          "@type": "postalAddress",
-          "addressLocality":"Richmond",
+          "@type": "PostalAddress",
+          "addressLocality": "Richmond",
           "addressRegion": "British Columbia",
           "addressCountry": "Canada"
         },
         {
-          "@type": "postalAddress",
-          "addressLocality":"Surrey",
+          "@type": "PostalAddress",
+          "addressLocality": "Surrey",
           "addressRegion": "British Columbia",
           "addressCountry": "Canada"
         },
         {
-          "@type": "postalAddress",
-          "addressLocality":"Burnaby",
+          "@type": "PostalAddress",
+          "addressLocality": "Burnaby",
           "addressRegion": "British Columbia",
           "addressCountry": "Canada"
         }
       ]
     }
-  ]
+  ],
+  "openingHours": "Mo-Fr 09:00-17:00",
+  "paymentAccepted": [
+    "Cash",
+    "Credit Card"
+  ],
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  },
+  "hasMap": "https://www.google.com/maps?q=49.2827,-123.1207"
 }
