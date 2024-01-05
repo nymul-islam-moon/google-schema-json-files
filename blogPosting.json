@@ -65,10 +65,13 @@
   "discussionUrl": "http://domain.com/blog/post#comments",
   "wordCount": 500,
   "timeRequired": "PT1H"
-//  "aggregateRating": { this part allow in schema not in google
-//    "@type": "AggregateRating",
-//    "ratingValue": "88",
-//    "bestRating": "100",
-//    "ratingCount": "20"
-//  }
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "88",
+    "bestRating": "100",
+    "ratingCount": "20"
+  },
+  "schemax_comments" : {
+    "aggregateRating" : "this part allow in schema not in google"
+  }
 }

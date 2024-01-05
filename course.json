@@ -78,7 +78,6 @@
     "name": "CourseProvider Certificate",
     "url": "www.example.com",
     "credentialCategory": "Certificate",
-    // offers only needed if the credential costs extra money.
     "offers": [{
       "@type": "Offer",
       "category": "Paid",
@@ -96,7 +95,6 @@
   },
   "hasCourseInstance": [
     {
-      // Blended, instructor-led course meeting 3 hours per day in July.
       "@type": "CourseInstance",
       "courseMode": "Blended",
       "location": "Example University",
@@ -116,12 +114,10 @@
       }]
     },
     {
-      // Online self-paced course that takes 2 days to complete.
       "@type": "CourseInstance",
       "courseMode": "Online",
       "courseWorkload": "P2D"
     }],
-  // Only required for course programs that link to child courses.
   "hasPart": [{
     "@type": "Course",
     "name": "C++ Algorithms",

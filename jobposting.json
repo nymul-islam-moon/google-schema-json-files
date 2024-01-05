@@ -1,8 +1,8 @@
 {
-  "@context": "https://schema.org",
+  "@context": "https://schema.org/",
   "@type": "JobPosting",
   "title": "Software Engineer",
-  "description": "<p>Google aspires to be an organization that reflects the globally diverse audience that our products and technology serve. We believe that in addition to hiring the best talent, a diversity of perspectives, ideas, and cultures leads to the creation of better products and services.</p>",
+  "description": "<p>Google aspires to be an organization that reflects the globally diverse audience that our products and technology serve. We believe that in addition to hiring the best talent, a diversity of perspectives, ideas and cultures leads to the creation of better products and services.</p>",
   "identifier": {
     "@type": "PropertyValue",
     "name": "Google",
@@ -15,16 +15,7 @@
     "@type": "Organization",
     "name": "Google",
     "sameAs": "https://www.google.com",
-    "logo": "https://www.example.com/images/logo.png",
-    "url": "https://www.google.com/careers",
-    "industry": "Technology",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "contactType": "Customer Support",
-      "telephone": "+1-800-GOOGLE",
-      "contactOption": "TollFree",
-      "areaServed": "US"
-    }
+    "logo": "https://www.example.com/images/logo.png"
   },
   "jobLocation": {
     "@type": "Place",
@@ -46,19 +37,19 @@
       "unitText": "HOUR"
     }
   },
-  "responsibilities": "Design and develop software solutions.",
-  "qualifications": "Bachelor's degree in Computer Science or equivalent experience.",
-  "skills": "Java, Python, JavaScript",
-  "experienceRequirements" : {
-    "@type" : "OccupationalExperienceRequirements",
-    "monthsOfExperience" : "36"
-  },
-  "educationRequirements" : {
-    "@type" : "EducationalOccupationalCredential",
-    "credentialCategory" : "bachelor degree"
-  },
-  "applicationDeadline": "2024-01-20",
-  "incentiveCompensation": "Performance bonuses, health benefits",
+  "responsibilities": "Design, develop, test, deploy, maintain, and improve software applications.",
+  "qualifications": "Bachelor's degree in Computer Science or related field, 3+ years of software development experience, etc.",
+  "skills": "JavaScript, Python, Java, etc.",
+  "experienceRequirements": "5+ years of relevant work experience",
+  "educationRequirements": "Bachelor's degree in Computer Science or equivalent",
   "workHours": "40 hours per week",
-  "jobBenefits": "Health insurance, flexible work hours, retirement plan"
+  "jobBenefits": [
+    "Health insurance",
+    "Dental insurance",
+    "401(k) matching",
+    "Flexible work schedule"
+  ],
+  "industry": "Technology",
+  "incentiveCompensation": "Annual bonus based on performance",
+  "url": "https://www.example.com/job/software-engineer"
 }

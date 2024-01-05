@@ -1,4 +1,4 @@
-{ // pass
+{
   "@context": "http://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
