@@ -2,20 +2,39 @@
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "mainEntity": [{
-    "@type": "Question",
-    "name": "How to find an apprenticeship?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "<p>We provide an official service to search through available apprenticeships. To get started, create an account here, specify the desired region, and your preferences. You will be able to search through all officially registered open apprenticeships.</p>"
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How to find an apprenticeship?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "<p>We provide an official service to search through available apprenticeships. To get started, create an account on our platform, specifying the desired region, and your preferences. You will gain access to a comprehensive list of officially registered open apprenticeships. Take the first step towards your career by exploring the opportunities available to you.</p>"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the benefits of apprenticeships?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "<p>Apprenticeships offer a unique blend of hands-on experience and classroom learning. Participants not only gain practical skills in their chosen field but also earn a wage while learning. Additionally, apprenticeships often lead to recognized qualifications, enhancing long-term career prospects.</p>"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Whom to contact?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can easily get in touch with our apprenticeship office through our official phone hotline provided above, or by using the web-form below. Our dedicated team is committed to assisting you. We typically respond to written requests within 7-10 days, ensuring you receive the support and information you need to make informed decisions about your apprenticeship journey."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there specific requirements for apprenticeships?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "<p>Each apprenticeship may have specific entry requirements. These could include educational qualifications, skills assessments, or other criteria. It's important to review the details of each apprenticeship opportunity to understand the specific requirements. Our platform provides detailed information about the prerequisites for each apprenticeship, ensuring you have all the necessary details to make an informed application.</p>"
+      }
     }
-  }, {
-    "@type": "Question",
-    "name": "Whom to contact?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "You can contact the apprenticeship office through our official phone hotline above, or with the web-form below. We generally respond to written requests within 7-10 days."
-    }
-  }]
+  ]
 }
 </script>
