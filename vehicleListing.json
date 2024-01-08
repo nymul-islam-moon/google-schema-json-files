@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Car",
+  "name": "1999 Dodge Ram Pickup 2500 ST",
+  "vehicleIdentificationNumber": "1BXKF23ZXXJ000000",
+  "image": [
+    "https://example.com/image1.png",
+    "https://example.com/image2.png"
+  ],
+  "url": "https://www.example.com/used-vehicle-1999-dodge-ram-pickup-2500-st-c-67/",
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": 10000,
+    "priceCurrency": "USD"
+  },
+  "itemCondition": "https://schema.org/UsedCondition",
+  "brand": {
+    "@type": "Brand",
+    "name": "Dodge"
+  },
+  "model": "Ram",
+  "vehicleConfiguration": "ST",
+  "vehicleModelDate": "1999",
+  "mileageFromOdometer": {
+    "@type": "QuantitativeValue",
+    "value": "20170",
+    "unitCode": "SMI"
+  },
+  "color": "White",
+  "vehicleInteriorColor": "Gray",
+  "vehicleInteriorType": "Standard",
+  "bodyType": "Pickup",
+  "driveWheelConfiguration": "https://schema.org/FourWheelDriveConfiguration",
+  "vehicleEngine": {
+    "@type": "EngineSpecification",
+    "fuelType": "Gasoline",
+    "engineDisplacement": "5.9L",
+    "enginePower": {
+      "@type": "QuantitativeValue",
+      "value": "245",
+      "unitCode": "HP"
+    },
+    "engineTorque": {
+      "@type": "QuantitativeValue",
+      "value": "345",
+      "unitCode": "lb-ft"
+    }
+  },
+  "vehicleTransmission": "Manual",
+  "numberOfDoors": 2,
+  "vehicleSeatingCapacity": 2,
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Safety Features",
+      "value": "Airbags, ABS, Traction Control"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Entertainment",
+      "value": "AM/FM Radio, CD Player"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Wheels",
+      "value": "Alloy Wheels"
+    }
+  ]
+}
