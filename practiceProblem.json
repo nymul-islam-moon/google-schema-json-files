@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Quiz",
+  "name": "Quiz about fractions",
+  "hasPart": {
+    "@type": "Question",
+    "typicalAgeRange": "7-12",
+    "educationalAlignment": [
+      {
+        "@type": "AlignmentObject",
+        "alignmentType": "educationalSubject",
+        "targetName": "Mathematics"
+      },
+      {
+        "@type": "AlignmentObject",
+        "alignmentType": "educationalSubject",
+        "targetName": "Algebra"
+      },
+      {
+        "@type": "AlignmentObject",
+        "alignmentType": "educationalLevel",
+        "targetName": "Grade 5 » Number and Operations—Fractions » Apply and extend previous understandings of multiplication and division. » 3",
+        "educationalFramework": "Common Core",
+        "targetUrl": "https://www.corestandards.org/Math/Content/5/NF/B/3/"
+      }
+    ],
+    "about": {
+      "@type": "Thing",
+      "name": "Fractions"
+    },
+    "educationalLevel": "intermediate",
+    "eduQuestionType": "Multiple choice",
+    "learningResourceType": "Practice problem",
+    "assesses": "Multiplying fractions by whole numbers",
+    "name": "Choose the model",
+    "comment": {
+      "@type": "Comment",
+      "text": "This is a hint about the question."
+    },
+    "encodingFormat": "text/markdown",
+    "text": "Which model represents the product $$2 * \\frac{2}{3}$$?",
+    "suggestedAnswer": [
+      {
+        "@type": "Answer",
+        "position": 0,
+        "encodingFormat": "text/html",
+        "text": "<img src=\"www.test.com/practice-problems-fractions/…image2.png\" alt=\"Answer 2\" />",
+        "comment": {
+          "@type": "Comment",
+          "text": "This is a hint about the answer."
+        }
+      }
+    ],
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "position": 1,
+      "encodingFormat": "text/html",
+      "text": "<img src=\"www.test.com/practice-problems-fractions/…image1.png\" alt=\"Answer 1\" />",
+      "comment": {
+        "@type": "Comment",
+        "text": "This is a hint about the answer."
+      },
+      "answerExplanation": {
+        "@type": "Comment",
+        "text": "This is a full explanation on how this answer was achieved."
+      }
+    }
+  }
+}
