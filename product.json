@@ -30,7 +30,10 @@
     "priceSpecification": {
       "@type": "PriceSpecification",
       "price": 39.99,
-      "priceCurrency": "CHF"
+      "priceCurrency": "CHF",
+      "valueAddedTaxIncluded": "true", // Indicates that the price includes value-added tax (VAT)
+      "taxPercentage": 7.5, // Add the tax percentage
+      "taxFixedAmount": 2.5 // Add a fixed tax amount
     },
     "hasMerchantReturnPolicy": {
       "@type": "MerchantReturnPolicy",
@@ -42,17 +45,17 @@
     },
     "itemCondition": "https://schema.org/NewCondition",
     "availability": "https://schema.org/InStock",
-    "url": "https://example.com/product-url", // Replace with actual product URL
+    "url": "https://example.com/product-url",
     "seller": {
       "@type": "Organization",
       "name": "Seller Name",
-      "url": "https://example.com/seller-url", // Replace with actual seller URL
+      "url": "https://example.com/seller-url",
       "contactPoint": {
         "@type": "ContactPoint",
         "contactType": "customer service",
         "telephone": "+1-877-746-9757",
         "availableLanguage": "en",
-        "url": "https://example.com/contact-url" // Replace with actual contact URL
+        "url": "https://example.com/contact-url"
       }
     },
     "shippingDetails": [
@@ -80,6 +83,14 @@
             "minValue": 1,
             "maxValue": 5,
             "unitCode": "DAY"
+          }
+        },
+        "taxShippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "currency": "USD",
+            "value": 2.50 // Add tax-specific shipping rate
           }
         }
       }
