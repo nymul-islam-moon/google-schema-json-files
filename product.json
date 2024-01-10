@@ -35,9 +35,10 @@
       "taxPercentage": 7.5,
       "taxFixedAmount": 2.5
     },
-    "priceValidUntil": "2024-12-31T23:59:59", // Added: Price validity end date
-    "priceValidFrom": "2024-01-01T00:00:00", // Added: Price validity start date
+    "priceValidUntil": "2024-12-31T23:59:59",
+    "priceValidFrom": "2024-01-01T00:00:00",
     "availability": "https://schema.org/InStock",
+    "quantity": 100,  // Add the quantity here
     "url": "https://example.com/product-url",
     "seller": {
       "@type": "Organization",
@@ -52,29 +53,29 @@
       }
     },
     "itemCondition": "https://schema.org/NewCondition",
-    "category": "Electronics > Gadgets", // Added: Product category
-    "mpn": "MPN123456", // Added: Manufacturer Part Number
-    "gtin8": "12345678", // Added: Global Trade Item Number (GTIN-8)
-    "gtin13": "1234567890123", // Added: Global Trade Item Number (GTIN-13)
-    "gtin14": "12345678901234", // Added: Global Trade Item Number (GTIN-14)
+    "category": "Electronics > Gadgets",
+    "mpn": "MPN123456",
+    "gtin8": "12345678",
+    "gtin13": "1234567890123",
+    "gtin14": "12345678901234",
     "weight": {
       "@type": "QuantitativeValue",
-      "value": 1.5, // Added: Product weight
+      "value": 1.5,
       "unitCode": "KG"
     },
     "depth": {
       "@type": "QuantitativeValue",
-      "value": 10, // Added: Product depth
+      "value": 10,
       "unitCode": "CM"
     },
     "width": {
       "@type": "QuantitativeValue",
-      "value": 15, // Added: Product width
+      "value": 15,
       "unitCode": "CM"
     },
     "height": {
       "@type": "QuantitativeValue",
-      "value": 5, // Added: Product height
+      "value": 5,
       "unitCode": "CM"
     },
     "shippingDetails": [
