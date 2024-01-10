@@ -31,19 +31,12 @@
       "@type": "PriceSpecification",
       "price": 39.99,
       "priceCurrency": "CHF",
-      "valueAddedTaxIncluded": "true", // Indicates that the price includes value-added tax (VAT)
-      "taxPercentage": 7.5, // Add the tax percentage
-      "taxFixedAmount": 2.5 // Add a fixed tax amount
+      "valueAddedTaxIncluded": "true",
+      "taxPercentage": 7.5,
+      "taxFixedAmount": 2.5
     },
-    "hasMerchantReturnPolicy": {
-      "@type": "MerchantReturnPolicy",
-      "applicableCountry": "CH",
-      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
-      "merchantReturnDays": 60,
-      "returnMethod": "https://schema.org/ReturnByMail",
-      "returnFees": "https://schema.org/FreeReturn"
-    },
-    "itemCondition": "https://schema.org/NewCondition",
+    "priceValidUntil": "2024-12-31T23:59:59", // Added: Price validity end date
+    "priceValidFrom": "2024-01-01T00:00:00", // Added: Price validity start date
     "availability": "https://schema.org/InStock",
     "url": "https://example.com/product-url",
     "seller": {
@@ -57,6 +50,32 @@
         "availableLanguage": "en",
         "url": "https://example.com/contact-url"
       }
+    },
+    "itemCondition": "https://schema.org/NewCondition",
+    "category": "Electronics > Gadgets", // Added: Product category
+    "mpn": "MPN123456", // Added: Manufacturer Part Number
+    "gtin8": "12345678", // Added: Global Trade Item Number (GTIN-8)
+    "gtin13": "1234567890123", // Added: Global Trade Item Number (GTIN-13)
+    "gtin14": "12345678901234", // Added: Global Trade Item Number (GTIN-14)
+    "weight": {
+      "@type": "QuantitativeValue",
+      "value": 1.5, // Added: Product weight
+      "unitCode": "KG"
+    },
+    "depth": {
+      "@type": "QuantitativeValue",
+      "value": 10, // Added: Product depth
+      "unitCode": "CM"
+    },
+    "width": {
+      "@type": "QuantitativeValue",
+      "value": 15, // Added: Product width
+      "unitCode": "CM"
+    },
+    "height": {
+      "@type": "QuantitativeValue",
+      "value": 5, // Added: Product height
+      "unitCode": "CM"
     },
     "shippingDetails": [
       {
@@ -90,7 +109,7 @@
           "shippingRate": {
             "@type": "MonetaryAmount",
             "currency": "USD",
-            "value": 2.50 // Add tax-specific shipping rate
+            "value": 2.50
           }
         }
       }
