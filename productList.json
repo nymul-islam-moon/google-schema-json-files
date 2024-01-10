@@ -17,6 +17,31 @@
           "@type": "AggregateRating",
           "ratingValue": "5",
           "reviewCount": "52"
+        },
+        "brand": {
+          "@type": "Brand",
+          "name": "Chef's Delight"
+        },
+        "offers": {
+          "@type": "Offer",
+          "availability": "http://schema.org/InStock",
+          "price": "10.99",
+          "priceCurrency": "USD",
+          "validFrom": "2024-01-01T00:00:00"
+        },
+        "recipeCategory": "Dessert",
+        "recipeCuisine": "International",
+        "ingredients": [
+          "2 cups sliced strawberries",
+          "1 cup diced mango",
+          "1 pre-made pie crust",
+          "1 cup sugar",
+          "2 tablespoons cornstarch"
+        ],
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "250 per serving",
+          "servingSize": "1 slice"
         }
       }
     },
@@ -25,15 +50,44 @@
       "position": "2",
       "item": {
         "@type": "Product",
-        "url": "http://example.com/big_list_of_recipes#strawberry-mango-pie",
+        "url": "http://example.com/big_list_of_recipes#chocolate-cake",
         "name": "Second Product",
-        "image": "http://example.com/recipes/smm.jpg",
-        "datePublished": "2010-03-03",
-        "description": "Delicious strawberry mango pie.",
+        "image": "http://example.com/recipes/cc.jpg",
+        "datePublished": "2012-05-15",
+        "description": "Decadent chocolate cake with rich frosting.",
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "5",
-          "reviewCount": "52"
+          "ratingValue": "4.8",
+          "reviewCount": "35"
+        },
+        "brand": {
+          "@type": "Brand",
+          "name": "Sweet Temptations"
+        },
+        "offers": {
+          "@type": "Offer",
+          "availability": "http://schema.org/InStock",
+          "price": "15.99",
+          "priceCurrency": "USD",
+          "validFrom": "2024-01-01T00:00:00"
+        },
+        "recipeCategory": "Dessert",
+        "recipeCuisine": "American",
+        "ingredients": [
+          "2 cups all-purpose flour",
+          "1 cup cocoa powder",
+          "1 ½ teaspoons baking powder",
+          "1 teaspoon baking soda",
+          "1 ¾ cups sugar",
+          "1 cup unsalted butter",
+          "3 large eggs",
+          "1 ½ teaspoons vanilla extract",
+          "1 ½ cups buttermilk"
+        ],
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "300 per serving",
+          "servingSize": "1 slice"
         }
       }
     }
