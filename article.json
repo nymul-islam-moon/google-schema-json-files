@@ -1,8 +1,13 @@
+<script type="application/ld+json">
 {
-  // pass
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Your Article Headline",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://example.com/article"
+  },
+  "headline": "Title of a News Article",
+  "description": "A concise summary of the news article",
   "image": [
     "https://example.com/photos/1x1/photo.jpg",
     "https://example.com/photos/4x3/photo.jpg",
@@ -13,65 +18,94 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Author's Name",
-      "url": "https://example.com/profile/johndoe123"
-    },
-    {
-      "@type": "Person",
       "name": "Jane Doe",
-      "url": "https://example.com/profile/janedoe123"
+      "url": "https://example.com/profile/janedoe123",
+      "sameAs": "https://www.linkedin.com/in/janedoe"
     },
     {
       "@type": "Person",
       "name": "John Doe",
-      "url": "https://example.com/profile/johndoe123"
+      "url": "https://example.com/profile/johndoe123",
+      "sameAs": "https://www.linkedin.com/in/johndoe"
     }
   ],
   "publisher": {
     "@type": "Organization",
-    "name": "Your Organization",
+    "name": "Publisher Name",
     "logo": {
       "@type": "ImageObject",
-      "url": "URL_OF_YOUR_ORGANIZATION_LOGO"
+      "url": "https://example.com/logo.jpg"
+    },
+    "url": "https://example.com/publisher",
+    "sameAs": [
+      "https://www.facebook.com/publisher",
+      "https://twitter.com/publisher"
+    ]
+  },
+  "articleBody": "The main content of the news article goes here.",
+  "keywords": "news, important events, updates",
+  "articleSection": "Politics",
+  "commentCount": 10,
+  "wordCount": 800,
+  "thumbnailUrl": "https://example.com/thumbnail.jpg",
+  "isAccessibleForFree": true,
+  "hasPart": [
+    {
+      "@type": "WebPageElement",
+      "isAccessibleForFree": "False",
+      "cssSelector": ".section1"
+    }, {
+      "@type": "WebPageElement",
+      "isAccessibleForFree": "False",
+      "cssSelector": ".section2"
+    }
+  ],
+  "copyrightHolder": {
+    "@type": "Organization",
+    "name": "Copyright Holder Name",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://example.com/copyright-logo.jpg"
     }
   },
-  "description": "Brief description of your article content",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://example.com/article-page"
+  "potentialAction": {
+    "@type": "ReadAction",
+    "target": [
+      "https://example.com/article"
+    ]
   },
-  "articleBody": "Full text of your article goes here. It can include HTML markup for formatting.",
-  "keywords": "comma, separated, list, of, keywords",
-  "inLanguage": "en-US",
-  "articleSection": "Technology",
-  "pageEnd": "12",
-  "pageStart": "1",
-  "pagination": "1 of 5",
-  "wordCount": 1200,
-  "isAccessibleForFree": false,
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".headline", ".articleBody"]
+  },
+  "genre": "News",
   "isPartOf": {
     "@type": "CreativeWork",
-    "name": "Series Title",
-    "url": "https://example.com/series-title"
+    "name": "Example News Portal",
+    "url": "https://example.com/news-portal"
   },
-  "comment": [
+  "mentions": [
     {
-      "@type": "Comment",
-      "text": "Great article!",
-      "datePublished": "2015-02-05T10:30:00+08:00",
-      "author": {
-        "@type": "Person",
-        "name": "Commenter's Name",
-        "url": "https://example.com/profile/commenter123"
-      }
+      "@type": "Organization",
+      "name": "Mentioned Organization",
+      "url": "https://mentioned-organization.com"
     }
   ],
-  "editor": [
-    {
-      "@type": "Person",
-      "name": "Editor's Name",
-      "url": "https://example.com/profile/editor123"
-    }
-  ],
-  "license": "https://example.com/license"
+  "publisherImprint": {
+    "@type": "Organization",
+    "name": "Publisher Imprint",
+    "url": "https://example.com/imprint"
+  },
+  // Additional Information
+  "alternateName": "Shorter Title",
+  "dateCreated": "2015-02-03T08:00:00+08:00",
+  "comment": "Feel free to leave your thoughts below!",
+  "interactionStatistic": {
+    "@type": "InteractionCounter",
+    "interactionType": {
+      "@type": "LikeAction"
+    },
+    "userInteractionCount": 1200
+  }
 }
+</script>
