@@ -14,7 +14,7 @@
     "https://example.com/photos/16x9/photo.jpg"
   ],
   "datePublished": "2015-02-05T08:00:00+08:00",
-  "dateModified": "2015-02-05T09:20:00+08:00",
+  "dateModified": "2015-02-06T10:30:00+08:00",
   "author": [
     {
       "@type": "Person",
@@ -43,7 +43,7 @@
     ]
   },
   "articleBody": "The main content of the news article goes here.",
-  "keywords": "news, important events, updates",
+  "keywords": "news, important events, updates, current affairs, breaking news, global events, political developments",
   "articleSection": "Politics",
   "commentCount": 10,
   "wordCount": 800,
@@ -52,11 +52,12 @@
   "hasPart": [
     {
       "@type": "WebPageElement",
-      "isAccessibleForFree": "False",
+      "isAccessibleForFree": false,
       "cssSelector": ".section1"
-    }, {
+    },
+    {
       "@type": "WebPageElement",
-      "isAccessibleForFree": "False",
+      "isAccessibleForFree": false,
       "cssSelector": ".section2"
     }
   ],
@@ -78,7 +79,6 @@
     "@type": "SpeakableSpecification",
     "cssSelector": [".headline", ".articleBody"]
   },
-  "genre": "News",
   "isPartOf": {
     "@type": "CreativeWork",
     "name": "Example News Portal",
@@ -106,6 +106,36 @@
       "@type": "LikeAction"
     },
     "userInteractionCount": 1200
+  },
+  // Blog Article Information
+  "blogPost": {
+    "@type": "BlogPosting",
+    "inLanguage": "en-US",
+    "blogPostType": "News",
+    "discussionUrl": "https://example.com/discussion",
+    "blogPostCategory": "Technology",
+    "alternativeHeadline": "Alternate Headline for SEO",
+    "blogPostComments": "https://example.com/blog-comments"
+  },
+  // Various Article Information
+  "isBasedOn": [
+    {
+      "@type": "CreativeWork",
+      "name": "Related Article 1",
+      "url": "https://example.com/related-article-1"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Related Article 2",
+      "url": "https://example.com/related-article-2"
+    }
+  ],
+  "genre": ["News", "Opinion", "Analysis"],
+  "educationalUse": "Informative",
+  "teaser": "A short teaser for the article",
+  "about": {
+    "@type": "Thing",
+    "name": "Main Topic"
   }
 }
 </script>
