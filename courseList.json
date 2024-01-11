@@ -1,11 +1,56 @@
 {
   "@context": "https://schema.org",
-  "@type": "Course",
-  "name": "Introduction to Computer Science and Programming",
-  "description": "Introductory CS course laying out the basics.",
-  "provider": {
-    "@type": "Organization",
-    "name": "University of Technology - Eureka",
-    "sameAs": "https://www.example.com"
-  }
+  "@type": "ItemList",
+  "name": "List of Computer Science Courses",
+  "numberOfItems": 1,
+  "itemListElement": [
+    {
+      "@type": "Course",
+      "position":1,
+      "name": "Introduction to Computer Science and Programming",
+      "description": "Introductory CS course laying out the basics.",
+      "url": "https://www.example.com/intro-to-cs",
+      "provider": {
+        "@type": "Organization",
+        "name": "University of Technology - Eureka",
+        "sameAs": "https://www.example.com"
+      },
+      "courseCode": "CS101",
+      "coursePrerequisites": "None",
+      "educationalCredentialAwarded": "Certificate of Completion",
+      "courseMode": "Online",
+      "courseWorkload": "PT3H",  // Updated to ISO 8601 duration format (3 hours per week)
+      "startDate": "2024-02-01",
+      "endDate": "2024-04-30",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",  // Assuming it's free, you can adjust the price accordingly
+        "priceCurrency": "USD",
+        "availability": "http://schema.org/InStock",
+        "validFrom": "2024-01-01T00:00:00",
+        "category": "Online Course"  // Added category information
+      },
+      "hasCourseInstance": [
+        {
+          "@type": "CourseInstance",
+          "name": "Spring 2024",
+          "url": "https://www.example.com/intro-to-cs/spring-2024",
+          "instructor": {
+            "@type": "Person",
+            "name": "Prof. John Smith",
+            "sameAs": "https://www.example.com/instructors/john-smith"
+          },
+          "startDate": "2024-02-01",
+          "endDate": "2024-04-30",
+          "courseMode": "Online",
+          "courseWorkload": "PT3H",  // Updated to ISO 8601 duration format (3 hours per week)
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "https://www.example.com/virtual-classroom"
+          }
+        }
+      ]
+    }
+  ]
 }
