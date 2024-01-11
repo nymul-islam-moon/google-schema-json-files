@@ -1,8 +1,9 @@
+<script type="application/ld+json">
 {
   "@context": "https://schema.org/",
   "@type": "JobPosting",
   "title": "Software Engineer",
-  "description": "<p>Google aspires to be an organization that reflects the globally diverse audience that our products and technology serve. We believe that in addition to hiring the best talent, a diversity of perspectives, ideas and cultures leads to the creation of better products and services.</p>",
+  "description": "<p>Google aspires to be an organization that reflects the globally diverse audience that our products and technology serve. We believe that in addition to hiring the best talent, a diversity of perspectives, ideas, and cultures leads to the creation of better products and services.</p>",
   "identifier": {
     "@type": "PropertyValue",
     "name": "Google",
@@ -10,6 +11,10 @@
   },
   "datePosted": "2017-01-18",
   "validThrough": "2017-03-18T00:00",
+  "applicantLocationRequirements": {
+    "@type": "Country",
+    "name": "USA"
+  },
   "employmentType": "CONTRACTOR",
   "hiringOrganization": {
     "@type": "Organization",
@@ -51,5 +56,14 @@
   ],
   "industry": "Technology",
   "incentiveCompensation": "Annual bonus based on performance",
-  "url": "https://www.example.com/job/software-engineer"
+  "url": "https://www.example.com/job/software-engineer",
+  "jobLocationType": "Telecommute",  // Added jobLocationType
+  "jobStartDate": "2022-03-01",  // Added jobStartDate
+  "applicationDeadline": "2022-02-15",  // Added applicationDeadline
+  "employmentUnit": {
+    "@type": "Organization",
+    "name": "Software Division",
+    "sameAs": "https://www.example.com/software-division"
+  }
 }
+</script>
