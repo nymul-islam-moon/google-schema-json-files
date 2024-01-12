@@ -1,0 +1,37 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "List of Websites",
+  "itemListElement": [
+    {
+      "@type": "WebSite",
+      "@id": "https://example.com/website1",
+      "position": 1,
+      "url": "https://example.com/website1",
+      "name": "Website 1",
+      "description": "Description of Website 1",
+      "image": "https://example.com/website1.jpg"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://example.com/website2",
+      "position": 2,
+      "url": "https://example.com/website2",
+      "name": "Website 2",
+      "description": "Description of Website 2",
+      "image": "https://example.com/website2.jpg"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://example.com/website3",
+      "position": 3,
+      "url": "https://example.com/website3",
+      "name": "Website 3",
+      "description": "Description of Website 3",
+      "image": "https://example.com/website3.jpg"
+    }
+    // Add more websites as needed
+  ]
+}
+</script>
