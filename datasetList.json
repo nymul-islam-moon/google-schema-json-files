@@ -1,0 +1,83 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "Courses on Advanced Topics",
+  "description":"Storm Data is provided by the National Weather Service (NWS) and contain statistics on...",
+  "url": "https://www.example.com/advancedCpp",
+  "sameAs": "https://www.example.com",
+  "identifier": [
+    "https://doi.org/10.1000/182",
+    "https://identifiers.org/ark:/12345/fk1234"
+  ],
+  "keywords": [
+    "C++ Programming",
+    "Backend Engineering",
+    "Memory Allocation",
+    "C++ Pointers",
+    "Systems Thinking"
+  ],
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isAccessibleForFree": false,
+  "hasPart": [
+    {
+      "@type": "Dataset",
+      "name": "C++ Algorithms",
+      "description":"Storm Data is provided by the National Weather Service (NWS) and contain statistics on...",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "creator": {
+        "@type": "Organization",
+        "name": "CourseProvider"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "name": "C++ Data Structures",
+      "description":"Storm Data is provided by the National Weather Service (NWS) and contain statistics on...",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "creator": {
+        "@type": "Organization",
+        "name": "CourseProvider"
+      }
+    }
+  ],
+  "creator": {
+    "@type": "Organization",
+    "url": "https://www.universityoftechnology.com/",
+    "name": "University of Technology - Eureka",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "telephone": "+1-123-456-7890",
+      "email": "info@universityoftechnology.com"
+    }
+  },
+  "funder": {
+    "@type": "Organization",
+    "sameAs": "https://ror.org/00tgqzw13",
+    "name": "National Science Foundation"
+  },
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "universityoftechnology.com"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "PDF",
+      "contentUrl": "https://www.example.com/course-pdf"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "Video",
+      "contentUrl": "https://www.example.com/course-video"
+    }
+  ],
+  "temporalCoverage": "2019-03-21/2023-07-31",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "18.0 -65.0 72.0 172.0"
+    }
+  }
+}
