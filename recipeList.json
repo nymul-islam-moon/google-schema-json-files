@@ -1,0 +1,96 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "ItemList",
+  "name": "Party Cake Recipes",
+  "itemListElement": [
+    {
+      "@type": "Recipe",
+      "position": 1,
+      "name": "Party Coffee Cake",
+      "image": "https://www.leannebrown.com/wp-content/uploads/2016/12/up-close-pear-cake.jpg",
+      "author": {
+        "@type": "Person",
+        "name": "Leanne Brown"
+      },
+      "datePublished": "2018-03-10",
+      "description": "This coffee cake is awesome and perfect for parties.",
+      "recipeCategory": "Dessert",
+      "recipeCuisine": "American",
+      "keywords": "cake for a party, coffee",
+      "recipeYield": "10",
+      "recipeIngredient": [
+        "2 cups of flour",
+        "3/4 cup white sugar",
+        "2 teaspoons baking powder",
+        "1/2 teaspoon salt",
+        "1/2 cup butter",
+        "2 eggs",
+        "3/4 cup milk"
+      ],
+      "recipeInstructions": [
+        {
+          "@type": "HowToStep",
+          "name": "Preheat",
+          "text": "Preheat the oven to 350 degrees F. Grease and flour a 9x9 inch pan.",
+          "url": "https://example.com/party-coffee-cake#step1",
+          "image": "https://example.com/photos/party-coffee-cake/step1.jpg"
+        }
+      ],
+      "video": [
+        {
+          "@type": "VideoObject",
+          "name": "How to make a Party Coffee Cake",
+          "description": "This is how you make a Party Coffee Cake.",
+          "thumbnailUrl": [
+            "https://example.com/photos/1x1/photo.jpg",
+            "https://example.com/photos/4x3/photo.jpg",
+            "https://example.com/photos/16x9/photo.jpg"
+          ],
+          "contentUrl": "http://www.example.com/video123.flv",
+          "embedUrl": "http://www.example.com/videoplayer.swf?video=123",
+          "uploadDate": "2018-02-05T08:00:00+08:00",
+          "duration": "PT1M33S",
+          "interactionCount": "2347",
+          "expires": "2019-02-05T08:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "@type": "Recipe",
+      "position": 2,
+      "name": "Chocolate Party Cake",
+      "image": "https://example.com/photos/chocolate-party-cake.jpg",
+      "author": {
+        "@type": "Person",
+        "name": "John Baker"
+      },
+      "datePublished": "2020-05-20",
+      "description": "A delicious chocolate cake for your next party.",
+      "recipeCategory": "Dessert",
+      "recipeCuisine": "International",
+      "keywords": "chocolate cake, party dessert",
+      "recipeYield": "12",
+      "recipeIngredient": [
+        "2 cups all-purpose flour",
+        "1 1/2 cups granulated sugar",
+        "1/2 cup cocoa powder",
+        "1 teaspoon baking powder",
+        "1/2 teaspoon baking soda",
+        "1/2 cup vegetable oil",
+        "2 eggs",
+        "1 cup buttermilk"
+      ],
+      "recipeInstructions": [
+        {
+          "@type": "HowToStep",
+          "name": "Preheat",
+          "text": "Preheat the oven to 350 degrees F. Grease and flour two 9-inch round cake pans.",
+          "url": "https://example.com/chocolate-party-cake#step1",
+          "image": "https://example.com/photos/chocolate-party-cake/step1.jpg"
+        }
+      ]
+    }
+  ]
+}
+</script>
