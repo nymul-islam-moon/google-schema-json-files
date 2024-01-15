@@ -1,0 +1,155 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Image List",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": "1",
+      "item": {
+        "@type": "ImageObject",
+        "contentUrl": "https://example.com/photos/1x1/black-labrador-puppy.jpg",
+        "license": "https://example.com/license",
+        "acquireLicensePage": "https://example.com/how-to-use-my-images",
+        "creditText": "Labrador PhotoLab",
+        "creator": {
+          "@type": "Person",
+          "name": "Brixton Brownstone",
+          "url": "https://example.com/photographer-profile"
+        },
+        "copyrightNotice": "Clara Kent",
+        "description": "A charming black Labrador puppy",
+        "datePublished": "2022-01-03",
+        "keywords": ["Labrador", "puppy", "black", "adorable"],
+        "author": "Labrador PhotoLab",
+        "sourceOrganization": {
+          "@type": "Organization",
+          "name": "Labrador PhotoLab",
+          "url": "https://example.com"
+        },
+        "provider": {
+          "@type": "Organization",
+          "name": "Image Provider",
+          "url": "https://example.com/provider"
+        },
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://example.com/photos/thumbnail/black-labrador-puppy.jpg",
+          "width": "150",
+          "height": "150"
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://example.com/photo-detail-page"
+        },
+        "additionalType": "Photograph",
+        "height": "1080",
+        "width": "1920",
+        "interactionStatistic": {
+          "@type": "InteractionCounter",
+          "interactionService": {
+            "@type": "WebSite",
+            "name": "Photo Viewer",
+            "url": "https://example.com/photo-viewer"
+          },
+          "userInteractionCount": 1500
+        },
+        "contentSize": "2.5MB",
+        "contentLocation": {
+          "@type": "Place",
+          "name": "Labrador PhotoLab Studio",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Main Street",
+            "addressLocality": "Cityville",
+            "addressRegion": "State",
+            "postalCode": "12345",
+            "addressCountry": "Country"
+          }
+        },
+        "contentRating": {
+          "@type": "Rating",
+          "ratingValue": "4.5",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": 100
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": "2",
+      "item": {
+        "@type": "ImageObject",
+        "contentUrl": "https://example.com/photos/1x1/cute-kitten.jpg",
+        "license": "https://example.com/license",
+        "acquireLicensePage": "https://example.com/how-to-use-my-images",
+        "creditText": "Kitten Cuteness Studios",
+        "creator": {
+          "@type": "Person",
+          "name": "Ava Whiskerpaws",
+          "url": "https://example.com/photographer-profile"
+        },
+        "copyrightNotice": "John Doe",
+        "description": "An adorable fluffy kitten",
+        "datePublished": "2022-02-15",
+        "keywords": ["kitten", "adorable", "fluffy"],
+        "author": "Kitten Cuteness Studios",
+        "sourceOrganization": {
+          "@type": "Organization",
+          "name": "Kitten Cuteness Studios",
+          "url": "https://example.com"
+        },
+        "provider": {
+          "@type": "Organization",
+          "name": "Image Provider",
+          "url": "https://example.com/provider"
+        },
+        "thumbnail": {
+          "@type": "ImageObject",
+          "contentUrl": "https://example.com/photos/thumbnail/cute-kitten.jpg",
+          "width": "150",
+          "height": "150"
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://example.com/kitten-photo-detail-page"
+        },
+        "additionalType": "Photograph",
+        "height": "1200",
+        "width": "1800",
+        "interactionStatistic": {
+          "@type": "InteractionCounter",
+          "interactionService": {
+            "@type": "WebSite",
+            "name": "Photo Viewer",
+            "url": "https://example.com/photo-viewer"
+          },
+          "userInteractionCount": 1200
+        },
+        "contentSize": "1.8MB",
+        "contentLocation": {
+          "@type": "Place",
+          "name": "Kitten Cuteness Studios",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "456 Oak Street",
+            "addressLocality": "Kittenville",
+            "addressRegion": "State",
+            "postalCode": "67890",
+            "addressCountry": "Country"
+          }
+        },
+        "contentRating": {
+          "@type": "Rating",
+          "ratingValue": "4.8",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": 120
+        }
+      }
+    }
+  ]
+}
+</script>
