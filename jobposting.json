@@ -45,8 +45,19 @@
   "responsibilities": "Design, develop, test, deploy, maintain, and improve software applications.",
   "qualifications": "Bachelor's degree in Computer Science or related field, 3+ years of software development experience, etc.",
   "skills": "JavaScript, Python, Java, etc.",
-  "experienceRequirements": "5+ years of relevant work experience",
-  "educationRequirements": "Bachelor's degree in Computer Science or equivalent",
+  "experienceRequirements" : {
+    "@type" : "OccupationalExperienceRequirements",
+    "monthsOfExperience" : "36"
+  },
+  "educationRequirements": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "bachelor degree" },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "postgraduate degree"
+    }
+  ],
   "workHours": "40 hours per week",
   "jobBenefits": [
     "Health insurance",
