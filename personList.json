@@ -1,0 +1,61 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "PersonList",
+  "itemListElement": [
+    {
+      "@type": "Person",
+      "position": 1,
+      "url": "https://example.com/alex",
+      "name": "Alex",
+      "gender": "Male",
+      "jobTitle": "Technical Director",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Webappick",
+        "url": "https://www.example.com/webappick"
+      }
+    },
+    {
+      "@type": "Person",
+      "position": 2,
+      "url": "https://example.com/john",
+      "name": "John D.",
+      "jobTitle": "Movie Critic",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Movie Reviews",
+        "url": "https://www.example.com/moviereviews"
+      }
+    },
+    {
+      "@type": "Person",
+      "position": 3,
+      "url": "https://example.com/vin",
+      "name": "Vin S.",
+      "jobTitle": "Movie Critic",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Movie Reviews",
+        "url": "https://www.example.com/moviereviews"
+      }
+    },
+    {
+      "@type": "Person",
+      "position": 4,
+      "url": "https://example.com/trevor",
+      "name": "Trevor R.",
+      "jobTitle": "Movie Critic",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Movie Reviews",
+        "url": "https://www.example.com/moviereviews"
+      }
+    }
+  ],
+  "sche_max": [
+      "comment": "this person list schema shown different message on google schema please recheck it"
+  ]
+}
+</script>
