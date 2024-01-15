@@ -1,0 +1,174 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Local Business List",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": "1",
+      "item": {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Skunkworks Creative Group",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://skunkworks.ca/"
+        },
+        "address": [
+          {
+            "@type": "PostalAddress",
+            "streetAddress": "#600 - 55 Water Street, Vancouver, BC V6B 1A1",
+            "addressLocality": "Vancouver",
+            "addressRegion": "British Columbia",
+            "addressCountry": "Canada",
+            "postalCode": "V6B 1A1"
+          }
+        ],
+        "telephone": "16047398976",
+        "image": "https://skunkworks.ca/facebook.jpg",
+        "priceRange": "$$$",
+        "location": [
+          {
+            "@type": "PostalAddress",
+            "telephone": "+16047398976",
+            "streetAddress": "#600 - 55 Water Street, Vancouver, BC V6B 1A1",
+            "addressLocality": "Vancouver",
+            "addressRegion": "BC",
+            "addressCountry": "Canada",
+            "postalCode": "V6B 1A1",
+            "serviceArea": [
+              {
+                "@type": "PostalAddress",
+                "addressLocality": "Richmond",
+                "addressRegion": "British Columbia",
+                "addressCountry": "Canada"
+              },
+              {
+                "@type": "PostalAddress",
+                "addressLocality": "Surrey",
+                "addressRegion": "British Columbia",
+                "addressCountry": "Canada"
+              },
+              {
+                "@type": "PostalAddress",
+                "addressLocality": "Burnaby",
+                "addressRegion": "British Columbia",
+                "addressCountry": "Canada"
+              }
+            ]
+          },
+          {
+            "@type": "PostalAddress",
+            "telephone": "+16045918885",
+            "streetAddress": "7253-123 Street",
+            "addressLocality": "Burnaby",
+            "addressRegion": "BC",
+            "addressCountry": "Canada",
+            "postalCode": "V1A 2B3",
+            "serviceArea": [
+              {
+                "@type": "PostalAddress",
+                "addressLocality": "Richmond",
+                "addressRegion": "British Columbia",
+                "addressCountry": "Canada"
+              },
+              {
+                "@type": "PostalAddress",
+                "addressLocality": "Surrey",
+                "addressRegion": "British Columbia",
+                "addressCountry": "Canada"
+              },
+              {
+                "@type": "PostalAddress",
+                "addressLocality": "Burnaby",
+                "addressRegion": "British Columbia",
+                "addressCountry": "Canada"
+              }
+            ]
+          }
+        ],
+        "openingHours": "Mo-Fr 09:00-17:00",
+        "paymentAccepted": [
+          "Cash",
+          "Credit Card"
+        ],
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 49.2827,
+          "longitude": -123.1207
+        },
+        "hasMap": "https://www.google.com/maps?q=49.2827,-123.1207"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": "2",
+      "item": {
+        "@context": "http://www.schema.org",
+        "@type": "LocalBusiness",
+        "name": "Second Business Name",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://example.com/second-business"
+        },
+        "address": [
+          {
+            "@type": "PostalAddress",
+            "streetAddress": "#123 - 456 Main Street, City, State 12345",
+            "addressLocality": "City",
+            "addressRegion": "State",
+            "addressCountry": "Country",
+            "postalCode": "12345"
+          }
+        ],
+        "telephone": "1234567890",
+        "image": "https://example.com/second-business-image.jpg",
+        "priceRange": "$$",
+        "location": [
+          {
+            "@type": "PostalAddress",
+            "telephone": "1234567890",
+            "streetAddress": "#123 - 456 Main Street, City, State 12345",
+            "addressLocality": "City",
+            "addressRegion": "State",
+            "addressCountry": "Country",
+            "postalCode": "12345",
+            "serviceArea": [
+              {
+                "@type": "PostalAddress",
+                "addressLocality": "NearbyCity1",
+                "addressRegion": "State",
+                "addressCountry": "Country"
+              },
+              {
+                "@type": "PostalAddress",
+                "addressLocality": "NearbyCity2",
+                "addressRegion": "State",
+                "addressCountry": "Country"
+              },
+              {
+                "@type": "PostalAddress",
+                "addressLocality": "NearbyCity3",
+                "addressRegion": "State",
+                "addressCountry": "Country"
+              }
+            ]
+          }
+        ],
+        "openingHours": "Mo-Fr 08:00-18:00",
+        "paymentAccepted": [
+          "Cash",
+          "Debit Card"
+        ],
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 40.7128,
+          "longitude": -74.0060
+        },
+        "hasMap": "https://www.google.com/maps?q=40.7128,-74.0060"
+      }
+    }
+  ]
+}
+</script>
