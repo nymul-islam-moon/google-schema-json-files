@@ -1,0 +1,129 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "name": "Movie Reviews",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": "1",
+      "item": {
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "Movie",
+          "url": "https://example.com/2019-best-picture-noms#a-star-is-born",
+          "name": "A Star Is Born",
+          "image": "https://example.com/photos/6x9/photo.jpg",
+          "dateCreated": "2018-10-05",
+          "director": {
+            "@type": "Person",
+            "name": "Bradley Cooper"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "90",
+            "bestRating": "100",
+            "ratingCount": "19141"
+          }
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "name": "A Masterpiece",
+        "author": {
+          "@type": "Person",
+          "name": "John D."
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Review Enthusiast",
+          "url": "https://www.reviewenthusiast.com"
+        },
+        "datePublished": "2024-01-16",
+        "reviewBody": "Heartbreaking, inspiring, moving. Bradley Cooper is a triple threat."
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": "2",
+      "item": {
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "Movie",
+          "name": "Bohemian Rhapsody",
+          "url": "https://example.com/2019-best-picture-noms#bohemian-rhapsody",
+          "image": "https://example.com/photos/6x9/photo.jpg",
+          "dateCreated": "2018-11-02",
+          "director": {
+            "@type": "Person",
+            "name": "Bryan Singer"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "61",
+            "bestRating": "100",
+            "ratingCount": "21985"
+          }
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "3"
+        },
+        "name": "Overrated Performance",
+        "author": {
+          "@type": "Person",
+          "name": "Vin S."
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Film Critic Central",
+          "url": "https://www.filmcriticcentral.com"
+        },
+        "datePublished": "2024-01-16",
+        "reviewBody": "Rami Malek's performance is overrated, at best."
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": "3",
+      "item": {
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "Movie",
+          "name": "Black Panther",
+          "url": "https://example.com/2019-best-picture-noms#black-panther",
+          "image": "https://example.com/photos/6x9/photo.jpg",
+          "dateCreated": "2018-02-16",
+          "director": {
+            "@type": "Person",
+            "name": "Ryan Coogler"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "96",
+            "bestRating": "100",
+            "ratingCount": "88211"
+          }
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "2"
+        },
+        "name": "Mixed Feelings",
+        "author": {
+          "@type": "Person",
+          "name": "Trevor R."
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Movie Review Hub",
+          "url": "https://www.moviereviewhub.com"
+        },
+        "datePublished": "2024-01-16",
+        "reviewBody": "I didn't like the lighting and CGI in this movie."
+      }
+    }
+  ]
+}
+</script>
