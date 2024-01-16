@@ -1,0 +1,85 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Software Applications",
+  "itemListElement": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "Angry Birds",
+      "operatingSystem": "ANDROID",
+      "applicationCategory": "GameApplication",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.6",
+        "ratingCount": "8864",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "1.00",
+        "priceCurrency": "USD",
+        "availability": "http://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "Google Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.rovio.angrybirds"
+        }
+      },
+      "description": "Join the Angry Birds in their quest to save the eggs from the greedy pigs. Use the unique powers of each bird to destroy the pig's defenses.",
+      "softwareVersion": "2.5.1",
+      "applicationSubCategory": "Physics-based Puzzle Game",
+      "fileSize": "120 MB",
+      "datePublished": "2022-03-15",
+      "downloadUrl": "https://play.google.com/store/apps/details?id=com.rovio.angrybirds",
+      "operatingSystemVersion": "Android 5.0 and up",
+      "permissions": "Internet, Storage, Vibration",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rovio Entertainment Corporation",
+        "url": "https://www.rovio.com/"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Example Software",
+      "operatingSystem": "Windows",
+      "applicationCategory": "Utility",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.2",
+        "ratingCount": "345",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "19.99",
+        "priceCurrency": "USD",
+        "availability": "http://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "Example Software Company",
+          "url": "https://www.examplesoftware.com/"
+        }
+      },
+      "description": "A versatile utility software for various tasks. Enhance your productivity with Example Software.",
+      "softwareVersion": "3.0.0",
+      "applicationSubCategory": "Productivity Tool",
+      "fileSize": "80 MB",
+      "datePublished": "2022-04-01",
+      "downloadUrl": "https://www.examplesoftware.com/download",
+      "operatingSystemVersion": "Windows 10 and newer",
+      "permissions": "Internet, Storage",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Example Software Company",
+        "url": "https://www.examplesoftware.com/"
+      }
+    }
+  ]
+}
+</script>

@@ -7,11 +7,33 @@
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.6",
-    "ratingCount": "8864"
+    "ratingCount": "8864",
+    "bestRating": "5",
+    "worstRating": "1"
   },
   "offers": {
     "@type": "Offer",
     "price": "1.00",
-    "priceCurrency": "USD"
+    "priceCurrency": "USD",
+    "availability": "http://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Google Play Store",
+      "url": "https://play.google.com/store/apps/details?id=com.rovio.angrybirds"
+    }
+  },
+  "description": "Join the Angry Birds in their quest to save the eggs from the greedy pigs. Use the unique powers of each bird to destroy the pig's defenses.",
+  "softwareVersion": "2.5.1",
+  "applicationSubCategory": "Physics-based Puzzle Game",
+  "fileSize": "120 MB",
+  "datePublished": "2022-03-15",
+  "downloadUrl": "https://play.google.com/store/apps/details?id=com.rovio.angrybirds",
+  "operatingSystemVersion": "Android 5.0 and up",
+  "permissions": "Internet, Storage, Vibration",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rovio Entertainment Corporation",
+    "url": "https://www.rovio.com/"
   }
 }
