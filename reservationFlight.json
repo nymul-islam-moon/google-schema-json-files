@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FlightReservation",
+  "reservationId": "RXJ34P",
+  "reservationStatus": "https://schema.org/ReservationConfirmed",
+  "passengerPriorityStatus": "Fast Track",
+  "passengerSequenceNumber": "ABC123",
+  "securityScreening": "TSA PreCheck",
+  "underName": {
+    "@type": "Person",
+    "name": "Eva Green",
+    "email": "eva.green@example.com",
+    "telephone": "+1-555-123-4567"
+  },
+  "reservationFor": {
+    "@type": "Flight",
+    "flightNumber": "UA110",
+    "provider": {
+      "@type": "Airline",
+      "name": "Continental",
+      "iataCode": "CO",
+      "boardingPolicy": "https://schema.org/ZoneBoardingPolicy"
+    },
+    "seller": {
+      "@type": "Airline",
+      "name": "United",
+      "iataCode": "UA"
+    },
+    "departureAirport": {
+      "@type": "Airport",
+      "name": "San Francisco Airport",
+      "iataCode": "SFO"
+    },
+    "departureTime": "2017-03-04T20:15:00-08:00",
+    "arrivalAirport": {
+      "@type": "Airport",
+      "name": "John F. Kennedy International Airport",
+      "iataCode": "JFK"
+    },
+    "arrivalTime": "2017-03-05T06:30:00-05:00",
+    "seatNumber": "17A",
+    "boardingGroup": "B",
+    "reservationFor": {
+      "@type": "Offer",
+      "price": "$500",
+      "priceCurrency": "USD"
+    }
+  },
+  "hasPart": {
+    "@type": "Thing",
+    "underName": {
+      "@type": "Person",
+      "name": "Eva Green"
+    },
+    "ticketNumber": "ABC123456",
+    "boardingGroup": "B",
+    "datePublished": "2017-03-04T15:00:00-08:00"
+  },
+  "includesObject": {
+    "@type": "Product",
+    "name": "Checked Baggage",
+    "description": "One checked bag up to 50 lbs",
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "Weight Limit",
+        "value": 50,
+        "unitCode": "LB"
+      }
+    ],
+    "numberOfItems": 1
+  }
+}
