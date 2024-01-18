@@ -1,0 +1,59 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BusReservation",
+  "reservationId": "123456",
+  "underName": {
+    "@type": "Person",
+    "name": "John Smith",
+    "email": "john.smith@example.com",
+    "telephone": "+1-555-123-4567"
+  },
+  "reservationStatus": "https://schema.org/ReservationConfirmed",
+  "reservationFor": {
+    "@type": "BusTrip",
+    "provider": {
+      "@type": "Organization",
+      "name": "Bolt NYC"
+    },
+    "departureBusStop": {
+      "@type": "BusStop",
+      "name": "Port Authority, NYC"
+    },
+    "departureTime": "2017-01-04T12:30:00-05:00",
+    "arrivalBusStop": {
+      "@type": "BusStop",
+      "name": "Boston South Station"
+    },
+    "arrivalTime": "2017-01-04T17:10:00-05:00",
+    "busName": "Bolt Express",
+    "busNumber": "BX123",
+    "seatNumber": "12A",
+    "reservationFor": {
+      "@type": "Offer",
+      "price": "$30",
+      "priceCurrency": "USD"
+    }
+  },
+  "hasPart": {
+    "@type": "Service",
+    "name": "Checked Baggage",
+    "description": "One checked bag up to 30 lbs",
+    "offers": {
+      "@type": "Offer",
+      "price": "$10",
+      "priceCurrency": "USD"
+    }
+  },
+  "includesObject": {
+    "@type": "Service",
+    "name": "Checked Baggage",
+    "description": "One checked bag up to 30 lbs",
+    "offers": {
+      "@type": "Offer",
+      "price": "$10",
+      "priceCurrency": "USD"
+    }
+  }
+}
+</script>
