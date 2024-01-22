@@ -14,5 +14,15 @@
       "schema_org" : "accepted",
       "google": "not_accepted"
     }
+  },
+  "educationalQA": {
+      "src": {
+        "google" : "https://developers.google.com/search/docs/appearance/structured-data/education-qa",
+        "chatgpt": "chatgpt"
+      },
+      "accepted": {
+        "google": "accepted",
+        "schema.org": "accepted but detected by the name of Quiz"
+      }
   }
 }

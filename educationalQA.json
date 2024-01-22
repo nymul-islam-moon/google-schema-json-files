@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Quiz",
+  "about": {
+    "@type": "Thing",
+    "name": "Cell Transport"
+  },
+  "educationalAlignment": [
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "educationalSubject",
+      "targetName": "Biology"
+    }
+  ],
+  "creator": {
+    "@type": "Person",
+    "name": "Dr. Jane Doe",
+    "url": "https://example.com/creator/jane-doe"
+  },
+  "timeRequired": "PT20M",
+  "description": "This quiz covers key concepts about cell transport mechanisms. Test your knowledge on receptor molecules, cell membranes, and more.",
+  "datePublished": "2023-03-01",
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Student"
+  },
+  "hasPart": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "Question",
+      "eduQuestionType": "Flashcard",
+      "text": "This is some fact about receptor molecules.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "receptor molecules"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Question",
+      "eduQuestionType": "Flashcard",
+      "text": "This is some fact about the cell membrane.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "cell membrane"
+      }
+    }
+  ]
+}
