@@ -1,0 +1,105 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Special Announcements List",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": "1",
+      "item": {
+        "@type": "SpecialAnnouncement",
+        "name": "Shelter-in-place for 3 California counties",
+        "text": "As of 11:59 pm on March 17, 2020, all individuals in the 3 counties must strictly follow the provisions in this new Order. This new Order will be in effect through March 30, 2020.",
+        "datePosted": "2020-03-17T08:00",
+        "expires": "2020-03-24T23:59",
+        "url": "https://example.org/california/shelter-in-place/",
+        "dateModified": "2020-03-18T10:00",
+        "headline": "New Shelter-in-Place Order",
+        "description": "An official shelter-in-place order has been issued for three California counties. Residents are required to comply with the order's provisions to reduce the spread of COVID-19.",
+        "image": "https://example.org/images/shelter-in-place.jpg",
+        "publisher": {
+          "@type": "Organization",
+          "name": "California Health Department",
+          "url": "https://example.org/california-health-department",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://example.org/images/health-department-logo.png",
+            "width": 200,
+            "height": 100
+          }
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://example.org/california/shelter-in-place/"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Dr. John Smith",
+          "url": "https://example.org/authors/john-smith",
+          "image": "https://example.org/images/john-smith.jpg"
+        },
+        "spatialCoverage": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "San Francisco County, CA",
+            "url": "https://example.org/california/san-francisco"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Marin County, CA",
+            "url": "https://example.org/california/marin"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Santa Clara County, CA",
+            "url": "https://example.org/california/santa-clara"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": "2",
+      "item": {
+        "@type": "SpecialAnnouncement",
+        "name": "Another Special Announcement",
+        "text": "This is another special announcement with its own details.",
+        "datePosted": "2022-01-01T08:00",
+        "expires": "2022-01-10T23:59",
+        "url": "https://example.org/another-special-announcement/",
+        "dateModified": "2022-01-02T10:00",
+        "headline": "Another Important Announcement",
+        "description": "This is a description of another important announcement.",
+        "image": "https://example.org/images/another-announcement.jpg",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Another Organization",
+          "url": "https://example.org/another-organization",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://example.org/images/another-org-logo.png",
+            "width": 200,
+            "height": 100
+          }
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://example.org/another-special-announcement/"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Jane Doe",
+          "url": "https://example.org/authors/jane-doe",
+          "image": "https://example.org/images/jane-doe.jpg"
+        },
+        "spatialCoverage": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Another County, CA",
+            "url": "https://example.org/another-county"
+          }
+        ]
+      }
+    }
+  ]
+}
