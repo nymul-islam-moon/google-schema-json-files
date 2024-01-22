@@ -2,23 +2,29 @@
   "@context": "https://schema.org",
   "@type": "VacationRental",
   "additionalType": "HolidayVillageRental",
-  "brand": "my_brand_id",
+  "brand": {
+    "@type": "Brand",
+    "name": "My Brand",
+    "identifier": "my_brand_id"
+  },
   "containsPlace": {
     "@type": "Accommodation",
     "additionalType": "EntirePlace",
-    "bed": [{
-      "@type": "BedDetails",
-      "numberOfBeds" : 1,
-      "typeOfBed": "Queen"
-    },
+    "bed": [
       {
         "@type": "BedDetails",
-        "numberOfBeds" : 2,
+        "numberOfBeds": 1,
+        "typeOfBed": "Queen"
+      },
+      {
+        "@type": "BedDetails",
+        "numberOfBeds": 2,
         "typeOfBed": "Single"
-      }],
+      }
+    ],
     "occupancy": {
       "@type": "QuantitativeValue",
-      "value" : 2
+      "value": 2
     },
     "amenityFeature": [
       {
@@ -49,7 +55,7 @@
     ],
     "floorSize": {
       "@type": "QuantitativeValue",
-      "value" : 75,
+      "value": 75,
       "unitCode": "MTK"
     },
     "numberOfBathroomsTotal": 1,
@@ -61,6 +67,7 @@
   "longitude": "101.12345",
   "name": "My Beautiful Vacation Rental",
   "address": {
+    "@type": "PostalAddress",
     "addressCountry": "US",
     "addressLocality": "Mountain View",
     "addressRegion": "California",
@@ -68,6 +75,7 @@
     "streetAddress": "1600 Amphitheatre Pkwy."
   },
   "aggregateRating": {
+    "@type": "AggregateRating",
     "ratingValue": 4.5,
     "ratingCount": 10,
     "reviewCount": 3,
@@ -87,33 +95,43 @@
   "checkoutTime": "11:00:00+08:00",
   "description": "A great Vacation Rental in the perfect neighborhood.",
   "knowsLanguage": ["en-US", "fr-FR"],
-  "review": [{
-    "@type": "Review",
-    "reviewRating": {
-      "@type": "Rating",
-      "ratingValue": 4,
-      "bestRating": 5
-    },
-    "author": {
-      "@type": "Person",
-      "name": "Lillian Ruiz"
-    },
-    "datePublished": "2022-12-01",
-    "contentReferenceTime": "2022-11-17"
-  },
+  "review": [
     {
       "@type": "Review",
       "reviewRating": {
         "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5"
+        "ratingValue": 4,
+        "bestRating": 5
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Lillian Ruiz"
+      },
+      "datePublished": "2022-12-01",
+      "contentReferenceTime": "2022-11-17",
+      "reviewBody": "Lovely place to stay!"
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5,
+        "bestRating": 5
       },
       "author": {
         "@type": "Person",
         "name": "John S."
       },
       "datePublished": "2022-10-01",
-      "contentReferenceTime": "2022-09-28"
+      "contentReferenceTime": "2022-09-28",
+      "reviewBody": "Absolutely fantastic!"
     }
-  ]
+  ],
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "200.00",
+    "availability": "https://schema.org/InStock",
+    "url": "https://example.com/mylisting/booking"
+  }
 }
