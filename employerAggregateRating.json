@@ -1,0 +1,31 @@
+{
+  "@context" : "https://schema.org/",
+  "@type": "EmployerAggregateRating",
+  "itemReviewed": {
+    "@type": "Organization",
+    "name" : "World's Best Coffee Shop",
+    "sameAs" : "https://example.com"
+  },
+  "ratingValue": "91",
+  "bestRating": "100",
+  "worstRating": "1",
+  "ratingCount" : "10561",
+  "reviewCount": "1020",
+  "description": "Aggregate rating based on customer feedback for World's Best Coffee Shop. Known for its excellent service and delightful coffee, it stands as a beacon of quality in the Downtown Area.",
+  "reviewAspect": "overall satisfaction",
+  "areaServed": {
+    "@type": "Place",
+    "name": "Downtown Area"
+  },
+  "dateCreated": "2020-01-15",
+  "author": {
+    "@type": "Organization",
+    "name": "Coffee Connoisseurs Review Board",
+    "url": "https://coffeeconnoisseurs.com"
+  },
+  "potentialAction": {
+    "@type": "ViewAction",
+    "target": "https://example.com/menu",
+    "name": "View Menu"
+  }
+}
