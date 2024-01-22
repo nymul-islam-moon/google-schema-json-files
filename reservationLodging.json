@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LodgingReservation",
+  "reservationId": "R123456",
+  "reservationStatus": "https://schema.org/ReservationConfirmed",
+  "underName": {
+    "@type": "Person",
+    "name": "John Doe"
+  },
+  "reservationFor": {
+    "@type": "LodgingBusiness",
+    "name": "Example Hotel",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Example Street",
+      "addressLocality": "Example City",
+      "postalCode": "12345",
+      "addressCountry": "US"
+    }
+  },
+  "checkinTime": "2024-01-18T15:00:00",
+  "checkoutTime": "2024-01-20T11:00:00",
+}

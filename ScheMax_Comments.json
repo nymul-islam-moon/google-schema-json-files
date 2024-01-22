@@ -1,0 +1,9 @@
+{
+  "reservation": {
+    "src": {
+      "google": "google url",
+      "schema.org": "",
+      "chatgpt": "chatgpt"
+    }
+  }
+}
