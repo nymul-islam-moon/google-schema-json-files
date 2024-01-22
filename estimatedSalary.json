@@ -1,0 +1,64 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.googleapis.com/",
+  "@type": "OccupationAggregationByEmployer",
+  "name": "App/Web App Developer",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "lastReviewed": "2017-07-23T14:20:00-05:00"
+  },
+  "description": "Develops information systems by designing, developing, and installing software solutions.",
+  "responsibilities": "Design and develop high-quality, scalable web applications, Coordinate with cross-functional teams, Ensure software security and privacy.",
+  "skills": "Proficiency in HTML, CSS, JavaScript, and one backend language (e.g., Python, Ruby). Experience with frameworks such as React or Angular.",
+  "educationRequirements": "Bachelor's degree in Computer Science or related field.",
+  "qualifications": "Strong problem-solving skills, attention to detail, and ability to work in a team.",
+  "employmentType": "Full-time",
+  "estimatedSalary": [
+    {
+      "@type": "MonetaryAmountDistribution",
+      "name": "base",
+      "currency": "USD",
+      "duration": "P1Y",
+      "percentile10": "100000.5",
+      "percentile25": "115000",
+      "median": "120000.28",
+      "percentile75": "130000",
+      "percentile90": "150000"
+    },
+    {
+      "@type": "MonetaryAmountDistribution",
+      "name": "bonus",
+      "currency": "USD",
+      "duration": "P1Y",
+      "percentile10": "10000",
+      "percentile25": "20000",
+      "median": "25000",
+      "percentile75": "27000",
+      "percentile90": "60000"
+    }
+  ],
+  "occupationLocation": [
+    {
+      "@type": "State",
+      "name": "Oregon"
+    },
+    {
+      "@type": "State",
+      "name": "Washington"
+    },
+    {
+      "@type": "State",
+      "name": "California"
+    }
+  ],
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "Google LLC"
+  },
+  "sampleSize": 1000,
+  "industry": "Technology",
+  "jobBenefits": "6 weeks paid vacation every year, Health insurance, Retirement benefits",
+  "yearsExperienceMin": 3,
+  "yearsExperienceMax": 7
+}
+</script>
