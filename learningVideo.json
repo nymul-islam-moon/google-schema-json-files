@@ -1,0 +1,62 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["VideoObject", "LearningResource"],
+  "name": "An introduction to XYZ",
+  "description": "This video, 'An introduction to XYZ,' aims to help learners understand basic concepts of exponents and solve related problems, aligning with the educational standards of HSA-SSE.B.3. The content includes concept overviews and problem walkthroughs designed for high school students in the US.",
+  "educationalLevel": "High school (US)",
+  "educationalAlignment": {
+    "@type": "AlignmentObject",
+    "educationalFramework": "Common Core",
+    "targetName": "HSA-SSE.B.3",
+    "targetUrl": "https://www.corestandards.org/Math/Content/HSA/SSE/#CCSS.Math.Content.HSA.SSE.B.3"
+  },
+  "contentUrl": "https://www.example.com/video/123/file.mp4",
+  "thumbnailUrl": [
+    "https://example.com/photos/1x1/photo.jpg",
+    "https://example.com/photos/4x3/photo.jpg",
+    "https://example.com/photos/16x9/photo.jpg"
+  ],
+  "duration": "PT30M",
+  "creator": {
+    "@type": "Person",
+    "name": "Jane Doe",
+    "url": "https://www.example.com/creator/jane-doe"
+  },
+  "datePublished": "2018-03-30",
+  "inLanguage": "en",
+  "interactivityType": "active",
+  "hasPart": [{
+    "@type": ["Clip", "LearningResource"],
+    "learningResourceType": "Concept Overview",
+    "name": "Understanding exponents",
+    "startOffset": 40,
+    "endOffset": 120,
+    "url": "https://www.example.com/example?t=501"
+  },{
+    "@type": ["Clip", "LearningResource"],
+    "learningResourceType": "Problem Walkthrough",
+    "name": "Example problem 1: suspended wires",
+    "text": "Consider a weight suspended from two wires as shown in Figure. Find the tension in each wire.",
+    "startOffset": 150,
+    "endOffset": 225,
+    "url": "https://www.example.com/example?t=30"
+  },{
+    "@type": ["Clip", "LearningResource"],
+    "learningResourceType": "Problem Walkthrough",
+    "name": "Example problem 2: exponents",
+    "text": "Consider a weight suspended from five wires as shown in Figure. Find the tension in one wire.",
+    "startOffset": 275,
+    "endOffset": 500,
+    "url": "https://www.example.com/example?t=201"
+  }],
+  "uploadDate": "2018-03-31T08:00:00+08:00",
+  "transcript": "https://www.example.com/transcripts/123.txt",
+  "license": "https://www.example.com/license",
+  "accessMode": "visual",
+  "accessModeSufficient": "visual",
+  "educationalUse": "instruction",
+  "timeRequired": "PT1H",
+  "typicalAgeRange": "15-18"
+}
+</script>
