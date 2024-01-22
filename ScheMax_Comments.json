@@ -5,5 +5,14 @@
       "schema.org": "",
       "chatgpt": "chatgpt"
     }
+  },
+  "book": {
+    "src": {
+      "chtgpt": "chatgpt"
+    },
+    "accepted": {
+      "schema_org" : "accepted",
+      "google": "not_accepted"
+    }
   }
 }
