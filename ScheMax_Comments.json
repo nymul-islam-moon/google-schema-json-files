@@ -4,43 +4,42 @@
       "google": ""
     },
     "accepted": {
-      "google": "show some error",
-      "schema.org": "accepted"
+      "google": {
+        "status": 0,
+        "comment": "shows some error"
+      },
+      "schema.org": {
+        "status": 1
+      }
     }
   },
   "article": {
-
-  },
-  "articleList": {
-
-  },
-  "audioObject": {
-
-  },
-  "book": {
     "src": {
-      "chtgpt": "chatgpt"
     },
     "accepted": {
-      "schema_org" : "accepted",
-      "google": "not_accepted"
+
     }
   },
-  "breadcrumbList": {
-
+  "articleList": {},
+  "audioObject": {},
+  "book": {
+    "src": {
+      "chatgpt": "chatgpt"
+    },
+    "accepted": {
+      "schema_org" : {
+        "status": 1
+      },
+      "google": {
+        "status": 0
+      }
+    }
   },
-  "course": {
-
-  },
-  "courseList": {
-
-  },
-  "dataset": {
-
-  },
-  "datasetList": {
-
-  },
+  "breadcrumbList": {},
+  "course": {},
+  "courseList": {},
+  "dataset": {},
+  "datasetList": {},
   "discussionForum": {},
   "educationalQA": {
     "src": {
@@ -108,8 +107,14 @@
       "chatgpt": "chatgpt"
     },
     "accepted": {
-      "google" : "accepted",
-      "schema.org": "can't recognize as a Paywalled Content"
+      "google" : {
+        "status": 1,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 0,
+        "comment": "can't recognize as a Paywalled Content"
+      }
     }
   },
   "personList": {},
@@ -144,7 +149,10 @@
       "chatgpt": "chatgpt"
     },
     "accepted": {
-      "google": "not recognize",
+      "google": {
+        "status": false,
+        "comment": ""
+      },
       "schema.org": "accepted"
     }
   },

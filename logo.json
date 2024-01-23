@@ -1,8 +1,6 @@
-<script type="application/ld+json">
 {
   "@context": "https://schema.org/",
   "@type": "Organization",
   "url": "https://www.example.com/",
   "logo": "https://www.example.com/logo.png"
 }
-</script>
