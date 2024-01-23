@@ -1,0 +1,40 @@
+<script type="application/ld+json">
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "http://ft.com",
+  "rdfa:usesVocabulary": {
+    "@id": "schema:"
+  },
+  "@type": "schema:Newspaper",
+  "schema:name": "The Financial Times",
+  "schema:editor": {
+    "@id": "http://www.wikidata.org/entity/6555518"
+  },
+  "schema:publisher": {
+    "@id": "http://www.wikidata.org/entity/Q1916402",
+    "schema:name": "Financial Times Ltd",
+    "schema:url": "http://ft.com"
+  },
+  "schema:url": "http://ft.com",
+  "schema:datePublished": "2024-01-23",
+  "schema:headline": "Latest Financial News",
+  "schema:image": "https://example.com/image.jpg",
+  "schema:description": "Comprehensive coverage of the latest financial news and analysis.",
+  "schema:genre": "Economy, Finance, Business",
+  "schema:about": {
+    "@type": "schema:Thing",
+    "schema:name": "Economy"
+  },
+  "schema:author": {
+    "@type": "schema:Person",
+    "schema:name": "John Doe",
+    "schema:url": "http://example.com/profile/johndoe"
+  }
+}
+</script>

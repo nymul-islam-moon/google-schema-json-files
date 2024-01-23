@@ -34,5 +34,15 @@
       "google" : "accepted",
       "schema.org": "can't recognize as a Paywalled Content"
     }
+  },
+  "newsPaper" : {
+     "src" : {
+       "schema.org" : "https://schema.org/Newspaper",
+       "chatgpt" : "chatgpt"
+     },
+    "accepted" : {
+      "google" : "can't recognize as a newspaper",
+      "schema.org" : "accepted"
+    }
   }
 }
