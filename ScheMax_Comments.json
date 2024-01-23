@@ -11,6 +11,12 @@
   "article": {
 
   },
+  "articleList": {
+
+  },
+  "audioObject": {
+
+  },
   "book": {
     "src": {
       "chtgpt": "chatgpt"
@@ -19,6 +25,9 @@
       "schema_org" : "accepted",
       "google": "not_accepted"
     }
+  },
+  "breadcrumbList": {
+
   },
   "educationalQA": {
     "src": {
