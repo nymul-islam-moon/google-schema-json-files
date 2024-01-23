@@ -1,10 +1,15 @@
 {
-  "reservation": {
-    "src": {
-      "google": "google url",
-      "schema.org": "",
-      "chatgpt": "chatgpt"
+  "aggregateRating": {
+    "src" : {
+      "google": ""
+    },
+    "accepted": {
+      "google": "show some error",
+      "schema.org": "accepted"
     }
+  },
+  "article": {
+
   },
   "book": {
     "src": {
@@ -16,33 +21,22 @@
     }
   },
   "educationalQA": {
-      "src": {
-        "google" : "https://developers.google.com/search/docs/appearance/structured-data/education-qa",
-        "chatgpt": "chatgpt"
-      },
-      "accepted": {
-        "google": "accepted",
-        "schema.org": "accepted but detected by the name of Quiz"
-      }
-  },
-  "paywalledContent" : {
     "src": {
-      "google" : "https://developers.google.com/search/docs/appearance/structured-data/paywalled-content",
+      "google" : "https://developers.google.com/search/docs/appearance/structured-data/education-qa",
       "chatgpt": "chatgpt"
     },
     "accepted": {
-      "google" : "accepted",
-      "schema.org": "can't recognize as a Paywalled Content"
+      "google": "accepted",
+      "schema.org": "accepted but detected by the name of Quiz"
     }
   },
-  "newsPaper" : {
-     "src" : {
-       "schema.org" : "https://schema.org/Newspaper",
-       "chatgpt" : "chatgpt"
-     },
-    "accepted" : {
-      "google" : "can't recognize as a newspaper",
-      "schema.org" : "accepted"
+  "logo": {
+    "src": {
+      "google": "https://developers.google.com/search/blog/2013/05/using-schemaorg-markup-for-organization"
+    },
+    "accepted": {
+      "google": "can't recognize",
+      "schema.org": "accepted"
     }
   },
   "map": {
@@ -55,13 +49,31 @@
       "schema.org" : "accepted"
     }
   },
-  "logo": {
+  "newsPaper" : {
+    "src" : {
+      "schema.org" : "https://schema.org/Newspaper",
+      "chatgpt" : "chatgpt"
+    },
+    "accepted" : {
+      "google" : "can't recognize as a newspaper",
+      "schema.org" : "accepted"
+    }
+  },
+  "paywalledContent" : {
     "src": {
-      "google": "https://developers.google.com/search/blog/2013/05/using-schemaorg-markup-for-organization"
+      "google" : "https://developers.google.com/search/docs/appearance/structured-data/paywalled-content",
+      "chatgpt": "chatgpt"
     },
     "accepted": {
-      "google": "can't recognize",
-      "schema.org": "accepted"
+      "google" : "accepted",
+      "schema.org": "can't recognize as a Paywalled Content"
+    }
+  },
+  "reservation": {
+    "src": {
+      "google": "google url",
+      "schema.org": "",
+      "chatgpt": "chatgpt"
     }
   },
   "travelAction": {
@@ -74,13 +86,4 @@
       "schema.org": "accepted"
     }
   },
-  "aggregateRating": {
-    "src" : {
-      "google": ""
-    },
-    "accepted": {
-      "google": "show some error",
-      "schema.org": "accepted"
-    }
-  }
 }

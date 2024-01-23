@@ -7,7 +7,7 @@
     "@id": "https://example.com/article"
   },
   "headline": "Title of a News Article",
-  "description": "A concise summary of the news article",
+  "description": "A concise summary of the news article. A short teaser for the article.",
   "image": [
     "https://example.com/photos/1x1/photo.jpg",
     "https://example.com/photos/4x3/photo.jpg",
@@ -96,7 +96,6 @@
     "name": "Publisher Imprint",
     "url": "https://example.com/imprint"
   },
-  // Additional Information
   "alternateName": "Shorter Title",
   "dateCreated": "2015-02-03T08:00:00+08:00",
   "comment": "Feel free to leave your thoughts below!",
@@ -107,7 +106,6 @@
     },
     "userInteractionCount": 1200
   },
-  // Blog Article Information
   "blogPost": {
     "@type": "BlogPosting",
     "inLanguage": "en-US",
@@ -117,7 +115,6 @@
     "alternativeHeadline": "Alternate Headline for SEO",
     "blogPostComments": "https://example.com/blog-comments"
   },
-  // Various Article Information
   "isBasedOn": [
     {
       "@type": "CreativeWork",
@@ -132,7 +129,6 @@
   ],
   "genre": ["News", "Opinion", "Analysis"],
   "educationalUse": "Informative",
-  "teaser": "A short teaser for the article",
   "about": {
     "@type": "Thing",
     "name": "Main Topic"
