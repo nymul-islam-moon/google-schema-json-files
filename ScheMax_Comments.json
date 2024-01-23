@@ -44,5 +44,15 @@
       "google" : "can't recognize as a newspaper",
       "schema.org" : "accepted"
     }
+  },
+  "map": {
+    "src" : {
+      "schema.org" : "https://schema.org/Map",
+      "chatgpt" : "chatgpt"
+    },
+    "accepted" : {
+      "google" : "can't recognize as a map",
+      "schema.org" : "accepted"
+    }
   }
 }
