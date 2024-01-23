@@ -24,5 +24,15 @@
         "google": "accepted",
         "schema.org": "accepted but detected by the name of Quiz"
       }
+  },
+  "paywalledContent" : {
+    "src": {
+      "google" : "https://developers.google.com/search/docs/appearance/structured-data/paywalled-content",
+      "chatgpt": "chatgpt"
+    },
+    "accepted": {
+      "google" : "accepted",
+      "schema.org": "can't recognize as a Paywalled Content"
+    }
   }
 }
