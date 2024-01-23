@@ -1,0 +1,44 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Article headline",
+  "image": "https://example.org/thumbnail1.jpg",
+  "datePublished": "2025-02-05T08:00:00+08:00",
+  "dateModified": "2025-02-05T09:20:00+08:00",
+  "author": {
+    "@type": "Person",
+    "name": "John Doe"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "News Publisher",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://example.org/logo.jpg"
+    }
+  },
+  "description": "A most wonderful article",
+  "isAccessibleForFree": "False",
+  "hasPart": {
+    "@type": "WebPageElement",
+    "isAccessibleForFree": "False",
+    "cssSelector" : ".paywall",
+    "description": "Detailed analysis and insights behind the paywall"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "9.99",
+    "priceCurrency": "USD",
+    "seller": {
+      "@type": "Organization",
+      "name": "News Publisher"
+    }
+  },
+  "interactionStatistic": {
+    "@type": "InteractionCounter",
+    "interactionType": "https://schema.org/CommentAction",
+    "userInteractionCount": 1234
+  }
+}
+</script>
