@@ -73,5 +73,14 @@
       "google": "not recognize",
       "schema.org": "accepted"
     }
+  },
+  "aggregateRating": {
+    "src" : {
+      "google": ""
+    },
+    "accepted": {
+      "google": "show some error",
+      "schema.org": "accepted"
+    }
   }
 }
