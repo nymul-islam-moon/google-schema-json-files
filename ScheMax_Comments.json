@@ -29,6 +29,19 @@
   "breadcrumbList": {
 
   },
+  "course": {
+
+  },
+  "courseList": {
+
+  },
+  "dataset": {
+
+  },
+  "datasetList": {
+
+  },
+  "discussionForum": {},
   "educationalQA": {
     "src": {
       "google" : "https://developers.google.com/search/docs/appearance/structured-data/education-qa",
@@ -39,6 +52,21 @@
       "schema.org": "accepted but detected by the name of Quiz"
     }
   },
+  "employerAggregateRating": {},
+  "estimatedSalary": {},
+  "event": {},
+  "eventList": {},
+  "factCheck": {},
+  "faqPage": {},
+  "howTo": {},
+  "imageObject": {},
+  "imageObjectList": {},
+  "itemList": {},
+  "jobPosting": {},
+  "jobPostingList": {},
+  "learningVideo": {},
+  "localBusiness": {},
+  "localBusinessList": {},
   "logo": {
     "src": {
       "google": "https://developers.google.com/search/blog/2013/05/using-schemaorg-markup-for-organization"
@@ -58,6 +86,10 @@
       "schema.org" : "accepted"
     }
   },
+  "mathSolver": {},
+  "mathSolverList": {},
+  "movie": {},
+  "movieList": {},
   "newsPaper" : {
     "src" : {
       "schema.org" : "https://schema.org/Newspaper",
@@ -68,6 +100,8 @@
       "schema.org" : "accepted"
     }
   },
+  "organization": {},
+  "parson": {},
   "paywalledContent" : {
     "src": {
       "google" : "https://developers.google.com/search/docs/appearance/structured-data/paywalled-content",
@@ -78,6 +112,13 @@
       "schema.org": "can't recognize as a Paywalled Content"
     }
   },
+  "personList": {},
+  "practiceProblem": {},
+  "product": {},
+  "question-w-answers": {},
+  "recipe": {},
+  "recipeList": {},
+  "reservationList": {},
   "reservation": {
     "src": {
       "google": "google url",
@@ -85,14 +126,32 @@
       "chatgpt": "chatgpt"
     }
   },
+  "reservationBus": {},
+  "reservationEvent": {},
+  "reservationFlight": {},
+  "reservationLodging": {},
+  "review": {},
+  "reviewList": {},
+  "service": {},
+  "serviceArea": {},
+  "softwareApplication": {},
+  "softwareApplicationList": {},
+  "specialAnnouncement": {},
+  "specialAnnouncementList": {},
   "travelAction": {
     "src": {
-        "schema.org" : "https://schema.org/TravelAction",
-        "chatgpt": "chatgpt"
+      "schema.org" : "https://schema.org/TravelAction",
+      "chatgpt": "chatgpt"
     },
     "accepted": {
       "google": "not recognize",
       "schema.org": "accepted"
     }
   },
+  "vacationRental": {},
+  "vehicleListing": {},
+  "video": {},
+  "videoList": {},
+  "webSite": {},
+  "webSiteListing": {}
 }
