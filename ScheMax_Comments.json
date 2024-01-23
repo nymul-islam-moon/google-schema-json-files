@@ -54,5 +54,14 @@
       "google" : "can't recognize as a map",
       "schema.org" : "accepted"
     }
+  },
+  "logo": {
+    "src": {
+      "google": "https://developers.google.com/search/blog/2013/05/using-schemaorg-markup-for-organization"
+    },
+    "accepted": {
+      "google": "can't recognize",
+      "schema.org": "accepted"
+    }
   }
 }
