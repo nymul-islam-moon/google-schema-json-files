@@ -63,5 +63,15 @@
       "google": "can't recognize",
       "schema.org": "accepted"
     }
+  },
+  "travelAction": {
+    "src": {
+        "schema.org" : "https://schema.org/TravelAction",
+        "chatgpt": "chatgpt"
+    },
+    "accepted": {
+      "google": "not recognize",
+      "schema.org": "accepted"
+    }
   }
 }

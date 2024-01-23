@@ -1,0 +1,27 @@
+<!-- John travels from the US to Brazil with Steve. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TravelAction",
+  "agent": {
+    "@type": "Person",
+    "name": "John"
+  },
+  "fromLocation": {
+    "@type": "Country",
+    "name": "USA"
+  },
+  "toLocation": {
+    "@type": "Country",
+    "name": "Brazil"
+  },
+  "participant": {
+    "@type": "Person",
+    "name": "Steve"
+  },
+  "actionStatus": "https://schema.org/TravelAction",
+  "description": "John and Steve's trip from the USA to Brazil",
+  "startTime": "2024-01-23T10:00:00",
+  "endTime": "2024-01-30T18:00:00"
+}
+</script>
