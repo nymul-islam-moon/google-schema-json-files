@@ -11,7 +11,7 @@
       "item": {
         "@type": "NewsArticle",
         "headline": "Title of Article 1",
-        "description": "A concise summary of Article 1",
+        "description": "A short teaser or summary of Article 1. The main content of Article 1 goes here.",
         "url": "https://example.com/article1",
         "datePublished": "2022-01-15T10:00:00+08:00",
         "dateModified": "2022-01-16T12:30:00+08:00",
@@ -36,7 +36,7 @@
             "https://twitter.com/publisher"
           ]
         },
-        "articleBody": "The main content of Article 1 goes here.",
+        "articleBody": "The full content of Article 1 goes here.", // Use plain text for article body
         "keywords": "news, events, updates",
         "articleSection": "General",
         "commentCount": 15,
@@ -98,15 +98,6 @@
           },
           "userInteractionCount": 1200
         },
-        "blogPost": {
-          "@type": "BlogPosting",
-          "inLanguage": "en-US",
-          "blogPostType": "News",
-          "discussionUrl": "https://example.com/discussion1",
-          "blogPostCategory": "Technology",
-          "alternativeHeadline": "Alternate Headline for SEO",
-          "blogPostComments": "https://example.com/blog-comments1"
-        },
         "isBasedOn": [
           {
             "@type": "CreativeWork",
@@ -121,7 +112,6 @@
         ],
         "genre": ["News", "Opinion", "Analysis"],
         "educationalUse": "Informative",
-        "teaser": "A short teaser for the article",
         "about": {
           "@type": "Thing",
           "name": "Main Topic 1"
@@ -134,7 +124,7 @@
       "item": {
         "@type": "NewsArticle",
         "headline": "Title of Article 2",
-        "description": "A concise summary of Article 2",
+        "description": "A short teaser or summary of Article 2. The main content of Article 2 goes here.",
         "url": "https://example.com/article2",
         "datePublished": "2022-01-16T11:30:00+08:00",
         "dateModified": "2022-01-17T14:45:00+08:00",
@@ -159,7 +149,7 @@
             "https://twitter.com/publisher"
           ]
         },
-        "articleBody": "The main content of Article 2 goes here.",
+        "articleBody": "The full content of Article 2 goes here.", // Use plain text for article body
         "keywords": "news, events, updates",
         "articleSection": "Politics",
         "commentCount": 20,
@@ -221,15 +211,6 @@
           },
           "userInteractionCount": 1500
         },
-        "blogPost": {
-          "@type": "BlogPosting",
-          "inLanguage": "en-US",
-          "blogPostType": "News",
-          "discussionUrl": "https://example.com/discussion2",
-          "blogPostCategory": "Politics",
-          "alternativeHeadline": "Alternate Headline for SEO",
-          "blogPostComments": "https://example.com/blog-comments2"
-        },
         "isBasedOn": [
           {
             "@type": "CreativeWork",
@@ -244,7 +225,6 @@
         ],
         "genre": ["News", "Opinion", "Analysis"],
         "educationalUse": "Informative",
-        "teaser": "A short teaser for the article",
         "about": {
           "@type": "Thing",
           "name": "Main Topic 2"
@@ -257,7 +237,7 @@
       "item": {
         "@type": "NewsArticle",
         "headline": "Title of Article 3",
-        "description": "A concise summary of Article 3",
+        "description": "A short teaser or summary of Article 3. The main content of Article 3 goes here.",
         "url": "https://example.com/article3",
         "datePublished": "2022-01-18T09:45:00+08:00",
         "dateModified": "2022-01-19T11:15:00+08:00",
@@ -282,7 +262,7 @@
             "https://twitter.com/publisher"
           ]
         },
-        "articleBody": "The main content of Article 3 goes here.",
+        "articleBody": "The full content of Article 3 goes here.", // Use plain text for article body
         "keywords": "news, events, updates",
         "articleSection": "Business",
         "commentCount": 18,
@@ -344,14 +324,353 @@
           },
           "userInteractionCount": 1300
         },
-        "blogPost": {
-          "@type": "BlogPosting",
-          "inLanguage": "en-US",
-          "blogPostType": "News",
-          "discussionUrl": "https://example.com/discussion3",
-          "blogPostCategory": "Business",
-          "alternativeHeadline": "Alternate Headline for SEO",
-          "blogPostComments": "https://example.com/blog-comments3"
+        "isBasedOn": [
+          {
+            "@type": "CreativeWork",
+            "name": "Related Article 5",
+            "url": "https://example.com/related-article-5"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Related Article 6",
+            "url": "https://example.com/related-article-6"
+          }
+        ],
+        "genre": ["News", "Opinion", "Analysis"],
+        "educationalUse": "Informative",
+        "about": {
+          "@type": "Thing",
+          "name": "Main Topic 3"
+        }
+      }
+    }
+  ]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "List of Articles",
+  "numberOfItems": 3,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "NewsArticle",
+        "headline": "Title of Article 1",
+        "description": "A short teaser or summary of Article 1. The main content of Article 1 goes here.",
+        "url": "https://example.com/article1",
+        "datePublished": "2022-01-15T10:00:00+08:00",
+        "dateModified": "2022-01-16T12:30:00+08:00",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Author 1",
+            "url": "https://example.com/profile/author1",
+            "sameAs": "https://www.linkedin.com/in/author1"
+          }
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "Publisher Name",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://example.com/logo.jpg"
+          },
+          "url": "https://example.com/publisher",
+          "sameAs": [
+            "https://www.facebook.com/publisher",
+            "https://twitter.com/publisher"
+          ]
+        },
+        "articleBody": "The full content of Article 1 goes here.", // Use plain text for article body
+        "keywords": "news, events, updates",
+        "articleSection": "General",
+        "commentCount": 15,
+        "wordCount": 900,
+        "thumbnailUrl": "https://example.com/thumbnail1.jpg",
+        "isAccessibleForFree": true,
+        "hasPart": [
+          {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": false,
+            "cssSelector": ".section1"
+          },
+          {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": false,
+            "cssSelector": ".section2"
+          }
+        ],
+        "copyrightHolder": {
+          "@type": "Organization",
+          "name": "Copyright Holder 1",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://example.com/copyright-logo1.jpg"
+          }
+        },
+        "potentialAction": {
+          "@type": "ReadAction",
+          "target": ["https://example.com/article1"]
+        },
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".headline", ".articleBody"]
+        },
+        "isPartOf": {
+          "@type": "CreativeWork",
+          "name": "Example News Portal",
+          "url": "https://example.com/news-portal"
+        },
+        "mentions": [
+          {
+            "@type": "Organization",
+            "name": "Mentioned Organization",
+            "url": "https://mentioned-organization.com"
+          }
+        ],
+        "publisherImprint": {
+          "@type": "Organization",
+          "name": "Publisher Imprint",
+          "url": "https://example.com/imprint"
+        },
+        "alternateName": "Shorter Title 1",
+        "dateCreated": "2022-01-14T08:00:00+08:00",
+        "comment": "Feel free to leave your thoughts below!",
+        "interactionStatistic": {
+          "@type": "InteractionCounter",
+          "interactionType": {
+            "@type": "LikeAction"
+          },
+          "userInteractionCount": 1200
+        },
+        "isBasedOn": [
+          {
+            "@type": "CreativeWork",
+            "name": "Related Article 1",
+            "url": "https://example.com/related-article-1"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Related Article 2",
+            "url": "https://example.com/related-article-2"
+          }
+        ],
+        "genre": ["News", "Opinion", "Analysis"],
+        "educationalUse": "Informative",
+        "about": {
+          "@type": "Thing",
+          "name": "Main Topic 1"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "NewsArticle",
+        "headline": "Title of Article 2",
+        "description": "A short teaser or summary of Article 2. The main content of Article 2 goes here.",
+        "url": "https://example.com/article2",
+        "datePublished": "2022-01-16T11:30:00+08:00",
+        "dateModified": "2022-01-17T14:45:00+08:00",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Author 2",
+            "url": "https://example.com/profile/author2",
+            "sameAs": "https://www.linkedin.com/in/author2"
+          }
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "Publisher Name",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://example.com/logo.jpg"
+          },
+          "url": "https://example.com/publisher",
+          "sameAs": [
+            "https://www.facebook.com/publisher",
+            "https://twitter.com/publisher"
+          ]
+        },
+        "articleBody": "The full content of Article 2 goes here.", // Use plain text for article body
+        "keywords": "news, events, updates",
+        "articleSection": "Politics",
+        "commentCount": 20,
+        "wordCount": 1000,
+        "thumbnailUrl": "https://example.com/thumbnail2.jpg",
+        "isAccessibleForFree": true,
+        "hasPart": [
+          {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": false,
+            "cssSelector": ".section1"
+          },
+          {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": false,
+            "cssSelector": ".section2"
+          }
+        ],
+        "copyrightHolder": {
+          "@type": "Organization",
+          "name": "Copyright Holder 2",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://example.com/copyright-logo2.jpg"
+          }
+        },
+        "potentialAction": {
+          "@type": "ReadAction",
+          "target": ["https://example.com/article2"]
+        },
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".headline", ".articleBody"]
+        },
+        "isPartOf": {
+          "@type": "CreativeWork",
+          "name": "Example News Portal",
+          "url": "https://example.com/news-portal"
+        },
+        "mentions": [
+          {
+            "@type": "Organization",
+            "name": "Mentioned Organization",
+            "url": "https://mentioned-organization.com"
+          }
+        ],
+        "publisherImprint": {
+          "@type": "Organization",
+          "name": "Publisher Imprint",
+          "url": "https://example.com/imprint"
+        },
+        "alternateName": "Shorter Title 2",
+        "dateCreated": "2022-01-15T08:00:00+08:00",
+        "comment": "Feel free to leave your thoughts below!",
+        "interactionStatistic": {
+          "@type": "InteractionCounter",
+          "interactionType": {
+            "@type": "LikeAction"
+          },
+          "userInteractionCount": 1500
+        },
+        "isBasedOn": [
+          {
+            "@type": "CreativeWork",
+            "name": "Related Article 3",
+            "url": "https://example.com/related-article-3"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Related Article 4",
+            "url": "https://example.com/related-article-4"
+          }
+        ],
+        "genre": ["News", "Opinion", "Analysis"],
+        "educationalUse": "Informative",
+        "about": {
+          "@type": "Thing",
+          "name": "Main Topic 2"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "NewsArticle",
+        "headline": "Title of Article 3",
+        "description": "A short teaser or summary of Article 3. The main content of Article 3 goes here.",
+        "url": "https://example.com/article3",
+        "datePublished": "2022-01-18T09:45:00+08:00",
+        "dateModified": "2022-01-19T11:15:00+08:00",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Author 3",
+            "url": "https://example.com/profile/author3",
+            "sameAs": "https://www.linkedin.com/in/author3"
+          }
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "Publisher Name",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://example.com/logo.jpg"
+          },
+          "url": "https://example.com/publisher",
+          "sameAs": [
+            "https://www.facebook.com/publisher",
+            "https://twitter.com/publisher"
+          ]
+        },
+        "articleBody": "The full content of Article 3 goes here.", // Use plain text for article body
+        "keywords": "news, events, updates",
+        "articleSection": "Business",
+        "commentCount": 18,
+        "wordCount": 950,
+        "thumbnailUrl": "https://example.com/thumbnail3.jpg",
+        "isAccessibleForFree": true,
+        "hasPart": [
+          {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": false,
+            "cssSelector": ".section1"
+          },
+          {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": false,
+            "cssSelector": ".section2"
+          }
+        ],
+        "copyrightHolder": {
+          "@type": "Organization",
+          "name": "Copyright Holder 3",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://example.com/copyright-logo3.jpg"
+          }
+        },
+        "potentialAction": {
+          "@type": "ReadAction",
+          "target": ["https://example.com/article3"]
+        },
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".headline", ".articleBody"]
+        },
+        "isPartOf": {
+          "@type": "CreativeWork",
+          "name": "Example News Portal",
+          "url": "https://example.com/news-portal"
+        },
+        "mentions": [
+          {
+            "@type": "Organization",
+            "name": "Mentioned Organization",
+            "url": "https://mentioned-organization.com"
+          }
+        ],
+        "publisherImprint": {
+          "@type": "Organization",
+          "name": "Publisher Imprint",
+          "url": "https://example.com/imprint"
+        },
+        "alternateName": "Shorter Title 3",
+        "dateCreated": "2022-01-17T08:00:00+08:00",
+        "comment": "Feel free to leave your thoughts below!",
+        "interactionStatistic": {
+          "@type": "InteractionCounter",
+          "interactionType": {
+            "@type": "LikeAction"
+          },
+          "userInteractionCount": 1300
         },
         "isBasedOn": [
           {
@@ -367,7 +686,6 @@
         ],
         "genre": ["News", "Opinion", "Analysis"],
         "educationalUse": "Informative",
-        "teaser": "A short teaser for the article",
         "about": {
           "@type": "Thing",
           "name": "Main Topic 3"
