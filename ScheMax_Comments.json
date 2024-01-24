@@ -263,11 +263,11 @@
     "src": {
       "schema.org": {
         "status": 1,
-        "link": ""
+        "link": "https://schema.org/DiscussionForumPosting"
       },
       "google": {
         "status": 1,
-        "link": ""
+        "link": "https://developers.google.com/search/docs/appearance/structured-data/discussion-forum"
       },
       "chatGPT": {
         "status": 1,
