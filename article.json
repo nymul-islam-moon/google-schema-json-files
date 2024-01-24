@@ -49,18 +49,6 @@
   "wordCount": 800,
   "thumbnailUrl": "https://example.com/thumbnail.jpg",
   "isAccessibleForFree": true,
-  "hasPart": [
-    {
-      "@type": "WebPageElement",
-      "isAccessibleForFree": false,
-      "cssSelector": ".section1"
-    },
-    {
-      "@type": "WebPageElement",
-      "isAccessibleForFree": false,
-      "cssSelector": ".section2"
-    }
-  ],
   "copyrightHolder": {
     "@type": "Organization",
     "name": "Copyright Holder Name",
@@ -74,10 +62,6 @@
     "target": [
       "https://example.com/article"
     ]
-  },
-  "speakable": {
-    "@type": "SpeakableSpecification",
-    "cssSelector": [".headline", ".articleBody"]
   },
   "isPartOf": {
     "@type": "CreativeWork",
@@ -98,7 +82,7 @@
   },
   "alternateName": "Shorter Title",
   "dateCreated": "2015-02-03T08:00:00+08:00",
-  "comment": "Feel free to leave your thoughts below!",
+  "comment": "https://example.com/blog-comments",
   "interactionStatistic": {
     "@type": "InteractionCounter",
     "interactionType": {
@@ -109,11 +93,9 @@
   "blogPost": {
     "@type": "BlogPosting",
     "inLanguage": "en-US",
-    "blogPostType": "News",
     "discussionUrl": "https://example.com/discussion",
-    "blogPostCategory": "Technology",
-    "alternativeHeadline": "Alternate Headline for SEO",
-    "blogPostComments": "https://example.com/blog-comments"
+    "articleSection": "Technology",
+    "alternativeHeadline": "Alternate Headline for SEO"
   },
   "isBasedOn": [
     {

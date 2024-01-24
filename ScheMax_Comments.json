@@ -15,9 +15,15 @@
   },
   "article": {
     "src": {
+      "chatgpt": "chatgpt"
     },
     "accepted": {
-
+        "schema.org": {
+          "status": 1
+        },
+        "google": {
+          "status": 1
+        }
     }
   },
   "articleList": {},
