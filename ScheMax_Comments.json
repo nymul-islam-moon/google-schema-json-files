@@ -1,171 +1,1666 @@
 {
   "aggregateRating": {
-    "src" : {
-      "schema.org": "https://schema.org/AggregateRating"
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": "https://schema.org/AggregateRating"
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
     },
     "accepted": {
       "google": {
         "status": 0,
-        "comment": "shows some error"
+        "comment": ""
       },
       "schema.org": {
-        "status": 1
+        "status": 1,
+        "comment": ""
       }
     }
   },
   "article": {
     "src": {
-      "chatgpt": "chatgpt"
-    },
-    "accepted": {
-        "schema.org": {
-          "status": 1
-        },
-        "google": {
-          "status": 1
-        }
-    }
-  },
-  "articleList": {},
-  "audioObject": {},
-  "book": {
-    "src": {
-      "chatgpt": "chatgpt"
-    },
-    "accepted": {
-      "schema_org" : {
-        "status": 1
+      "schema.org": {
+        "status": 1,
+        "link": "https://schema.org/Article"
       },
       "google": {
-        "status": 0
+        "status": 1,
+        "link": "https://developers.google.com/search/docs/appearance/structured-data/article"
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 1,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
       }
     }
   },
-  "breadcrumbList": {},
-  "course": {},
-  "courseList": {},
-  "dataset": {},
-  "datasetList": {},
-  "discussionForum": {},
-  "educationalQA": {
+  "articleList": {
     "src": {
-      "google" : "https://developers.google.com/search/docs/appearance/structured-data/education-qa",
-      "chatgpt": "chatgpt"
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
     },
     "accepted": {
-      "google": "accepted",
-      "schema.org": "accepted but detected by the name of Quiz"
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
     }
   },
-  "employerAggregateRating": {},
-  "estimatedSalary": {},
-  "event": {},
-  "eventList": {},
-  "factCheck": {},
-  "faqPage": {},
-  "howTo": {},
-  "imageObject": {},
-  "imageObjectList": {},
-  "itemList": {},
-  "jobPosting": {},
-  "jobPostingList": {},
-  "learningVideo": {},
-  "localBusiness": {},
-  "localBusinessList": {},
-  "logo": {
+  "audioObject": {
     "src": {
-      "google": "https://developers.google.com/search/blog/2013/05/using-schemaorg-markup-for-organization"
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
     },
     "accepted": {
-      "google": "can't recognize",
-      "schema.org": "accepted"
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "book": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "breadcrumbList": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "course": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "courseList": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "dataset": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "datasetList": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "discussionForum": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "educationalQA": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "employerAggregateRating": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "estimatedSalary": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "event": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "eventListing": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "factCheck": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "faqPage": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "howTo": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "imageObject": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "imageObjectListing": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "itemList": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "jobPosting": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "jobPostingList": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "learningVideo": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "localBusiness": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "localBusinessList": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "logo": {
+    "src": {
+      "schema.org": {
+        "status": 0,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": "https://developers.google.com/search/blog/2013/05/using-schemaorg-markup-for-organization"
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": "can't recognize"
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
     }
   },
   "map": {
-    "src" : {
-      "schema.org" : "https://schema.org/Map",
-      "chatgpt" : "chatgpt"
-    },
-    "accepted" : {
-      "google" : "can't recognize as a map",
-      "schema.org" : "accepted"
-    }
-  },
-  "mathSolver": {},
-  "mathSolverList": {},
-  "movie": {},
-  "movieList": {},
-  "newsPaper" : {
-    "src" : {
-      "schema.org" : "https://schema.org/Newspaper",
-      "chatgpt" : "chatgpt"
-    },
-    "accepted" : {
-      "google" : "can't recognize as a newspaper",
-      "schema.org" : "accepted"
-    }
-  },
-  "organization": {},
-  "parson": {},
-  "paywalledContent" : {
     "src": {
-      "google" : "https://developers.google.com/search/docs/appearance/structured-data/paywalled-content",
-      "chatgpt": "chatgpt"
+      "schema.org": {
+        "status": 1,
+        "link": "https://schema.org/Map"
+      },
+      "google": {
+        "status": 0,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
     },
     "accepted": {
-      "google" : {
+      "google": {
+        "status": 0,
+        "comment": "can't recognize as a map"
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "mathSolver": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "mathSolversList": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "movie": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "movieListing": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "newsPaper": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": "https://schema.org/Newspaper"
+      },
+      "google": {
+        "status": 0,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": "can't recognize as a newspaper"
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "organization": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "organizationList": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "parson": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "paywalledContent": {
+    "src": {
+      "schema.org": {
+        "status": 0,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": "https://developers.google.com/search/docs/appearance/structured-data/paywalled-content"
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
         "status": 1,
         "comment": ""
       },
       "schema.org": {
         "status": 0,
-        "comment": "can't recognize as a Paywalled Content"
+        "comment": "can't recognize as a paywalled Content"
       }
     }
   },
-  "personList": {},
-  "practiceProblem": {},
-  "product": {},
-  "question-w-answers": {},
-  "recipe": {},
-  "recipeList": {},
-  "reservationList": {},
-  "reservation": {
+  "personList": {
     "src": {
-      "google": "google url",
-      "schema.org": "",
-      "chatgpt": "chatgpt"
-    }
-  },
-  "reservationBus": {},
-  "reservationEvent": {},
-  "reservationFlight": {},
-  "reservationLodging": {},
-  "review": {},
-  "reviewList": {},
-  "service": {},
-  "serviceArea": {},
-  "softwareApplication": {},
-  "softwareApplicationList": {},
-  "specialAnnouncement": {},
-  "specialAnnouncementList": {},
-  "travelAction": {
-    "src": {
-      "schema.org" : "https://schema.org/TravelAction",
-      "chatgpt": "chatgpt"
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
     },
     "accepted": {
       "google": {
-        "status": false,
+        "status": 0,
         "comment": ""
       },
-      "schema.org": "accepted"
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
     }
   },
-  "vacationRental": {},
-  "vehicleListing": {},
-  "video": {},
-  "videoList": {},
-  "webSite": {},
-  "webSiteListing": {}
+  "practiceProblem": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "product": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "productList": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "question-w-answers": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "recipe": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "recipeList": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "reservationBus": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "reservationEvent": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "reservationFlight": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "reservationLodging": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "review": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "reviewListing": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "service": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "serviceArea": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "softwareApplication": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "softwareApplicationListing": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "specialAnnouncement": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "specialAnnouncementList": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "travelAction": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": "https://schema.org/TravelAction"
+      },
+      "google": {
+        "status": 0,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "vacationRental": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "vehicleListing": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "video": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "videoListing": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "webSite": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  },
+  "websiteListing": {
+    "src": {
+      "schema.org": {
+        "status": 1,
+        "link": ""
+      },
+      "google": {
+        "status": 1,
+        "link": ""
+      },
+      "chatGPT": {
+        "status": 1,
+        "link": "chatgpt"
+      }
+    },
+    "accepted": {
+      "google": {
+        "status": 0,
+        "comment": ""
+      },
+      "schema.org": {
+        "status": 1,
+        "comment": ""
+      }
+    }
+  }
 }
