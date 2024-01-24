@@ -1,7 +1,7 @@
 {
   "aggregateRating": {
     "src" : {
-      "google": ""
+      "schema.org": "https://schema.org/AggregateRating"
     },
     "accepted": {
       "google": {
