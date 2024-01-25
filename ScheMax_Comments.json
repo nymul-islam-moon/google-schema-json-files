@@ -497,11 +497,11 @@
     "src": {
       "schema.org": {
         "status": 1,
-        "link": ""
+        "link": "https://schema.org/image"
       },
       "google": {
         "status": 1,
-        "link": ""
+        "link": "https://developers.google.com/search/docs/appearance/structured-data/image-license-metadata"
       },
       "chatGPT": {
         "status": 1,
@@ -510,7 +510,7 @@
     },
     "accepted": {
       "google": {
-        "status": 0,
+        "status": 1,
         "comment": ""
       },
       "schema.org": {
@@ -522,11 +522,11 @@
   "imageObjectListing": {
     "src": {
       "schema.org": {
-        "status": 1,
+        "status": 0,
         "link": ""
       },
       "google": {
-        "status": 1,
+        "status": 0,
         "link": ""
       },
       "chatGPT": {
@@ -536,7 +536,7 @@
     },
     "accepted": {
       "google": {
-        "status": 0,
+        "status": 1,
         "comment": ""
       },
       "schema.org": {
@@ -549,10 +549,10 @@
     "src": {
       "schema.org": {
         "status": 1,
-        "link": ""
+        "link": "https://schema.org/ItemList"
       },
       "google": {
-        "status": 1,
+        "status": 0,
         "link": ""
       },
       "chatGPT": {
@@ -562,7 +562,7 @@
     },
     "accepted": {
       "google": {
-        "status": 0,
+        "status": 1,
         "comment": ""
       },
       "schema.org": {
