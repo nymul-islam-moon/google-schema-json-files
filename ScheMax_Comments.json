@@ -1277,11 +1277,11 @@
     "src": {
       "schema.org": {
         "status": 1,
-        "link": ""
+        "link": "https://schema.org/Review"
       },
       "google": {
         "status": 1,
-        "link": ""
+        "link": "https://developers.google.com/search/docs/appearance/structured-data/review-snippet"
       },
       "chatGPT": {
         "status": 1,
@@ -1290,8 +1290,8 @@
     },
     "accepted": {
       "google": {
-        "status": 0,
-        "comment": ""
+        "status": 1,
+        "comment": "Review snippets"
       },
       "schema.org": {
         "status": 1,
@@ -1302,11 +1302,11 @@
   "reviewListing": {
     "src": {
       "schema.org": {
-        "status": 1,
+        "status": 0,
         "link": ""
       },
       "google": {
-        "status": 1,
+        "status": 0,
         "link": ""
       },
       "chatGPT": {
@@ -1316,12 +1316,12 @@
     },
     "accepted": {
       "google": {
-        "status": 0,
-        "comment": ""
+        "status": 1,
+        "comment": "Review snippets"
       },
       "schema.org": {
         "status": 1,
-        "comment": ""
+        "comment": "ItemList"
       }
     }
   },
