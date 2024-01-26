@@ -1225,10 +1225,10 @@
     "src": {
       "schema.org": {
         "status": 1,
-        "link": ""
+        "link": "https://schema.org/FlightReservation"
       },
       "google": {
-        "status": 1,
+        "status": 0,
         "link": ""
       },
       "chatGPT": {
@@ -1239,7 +1239,7 @@
     "accepted": {
       "google": {
         "status": 0,
-        "comment": ""
+        "comment": "1 invalid item detected"
       },
       "schema.org": {
         "status": 1,
