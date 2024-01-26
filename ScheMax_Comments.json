@@ -1406,11 +1406,11 @@
   "softwareApplicationListing": {
     "src": {
       "schema.org": {
-        "status": 1,
+        "status": 0,
         "link": ""
       },
       "google": {
-        "status": 1,
+        "status": 0,
         "link": ""
       },
       "chatGPT": {
@@ -1420,7 +1420,7 @@
     },
     "accepted": {
       "google": {
-        "status": 0,
+        "status": 1,
         "comment": ""
       },
       "schema.org": {
@@ -1433,11 +1433,11 @@
     "src": {
       "schema.org": {
         "status": 1,
-        "link": ""
+        "link": "https://schema.org/SpecialAnnouncement"
       },
       "google": {
         "status": 1,
-        "link": ""
+        "link": "https://developers.google.com/search/docs/appearance/structured-data/special-announcements"
       },
       "chatGPT": {
         "status": 1,
@@ -1446,7 +1446,7 @@
     },
     "accepted": {
       "google": {
-        "status": 0,
+        "status": 1,
         "comment": ""
       },
       "schema.org": {
@@ -1458,11 +1458,11 @@
   "specialAnnouncementList": {
     "src": {
       "schema.org": {
-        "status": 1,
+        "status": 0,
         "link": ""
       },
       "google": {
-        "status": 1,
+        "status": 0,
         "link": ""
       },
       "chatGPT": {
@@ -1472,7 +1472,7 @@
     },
     "accepted": {
       "google": {
-        "status": 0,
+        "status": 1,
         "comment": ""
       },
       "schema.org": {
@@ -1511,11 +1511,11 @@
     "src": {
       "schema.org": {
         "status": 1,
-        "link": ""
+        "link": "https://schema.org/VacationRental"
       },
       "google": {
         "status": 1,
-        "link": ""
+        "link": "https://developers.google.com/search/docs/appearance/structured-data/vacation-rental"
       },
       "chatGPT": {
         "status": 1,
@@ -1536,12 +1536,12 @@
   "vehicleListing": {
     "src": {
       "schema.org": {
-        "status": 1,
+        "status": 0,
         "link": ""
       },
       "google": {
         "status": 1,
-        "link": ""
+        "link": "https://developers.google.com/search/docs/appearance/structured-data/vehicle-listing"
       },
       "chatGPT": {
         "status": 1,
@@ -1550,12 +1550,12 @@
     },
     "accepted": {
       "google": {
-        "status": 0,
+        "status": 1,
         "comment": ""
       },
       "schema.org": {
         "status": 1,
-        "comment": ""
+        "comment": "Car"
       }
     }
   },
