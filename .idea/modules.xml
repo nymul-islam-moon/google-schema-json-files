@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Schemas.iml" filepath="$PROJECT_DIR$/.idea/Schemas.iml" />
       <module fileurl="file:///Applications/MAMP/htdocs/wpress/wp-content/plugins/alecaddd-plugin/.idea/alecaddd-plugin.iml" filepath="/Applications/MAMP/htdocs/wpress/wp-content/plugins/alecaddd-plugin/.idea/alecaddd-plugin.iml" />
+      <module fileurl="file:///Applications/MAMP/htdocs/webapick/wp-content/plugins/disco/.idea/disco.iml" filepath="/Applications/MAMP/htdocs/webapick/wp-content/plugins/disco/.idea/disco.iml" />
     </modules>
   </component>
 </project>
